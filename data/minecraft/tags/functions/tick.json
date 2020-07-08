@@ -1,0 +1,6 @@
+{
+    "values":[
+        "ps:main/tick",
+        "ps:tps/tick"
+    ]
+}

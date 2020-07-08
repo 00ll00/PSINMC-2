@@ -1,0 +1,2 @@
+execute if entity @s[tag=!PS.menu.end] as @e[tag=PS.menu,tag=!PS.menu.focused_,tag=PS.players.belonging] if score @s PS.menu.layer >= @e[tag=PS.menu.focused_,tag=PS.players.belonging,limit=1] PS.menu.layer run kill @s
+execute if entity @s[tag=PS.menu.end] as @e[tag=PS.menu,tag=!PS.menu.focused_,tag=PS.players.belonging] if score @s PS.menu.layer > @e[tag=PS.menu.focused_,tag=PS.players.belonging,limit=1] PS.menu.layer run kill @s

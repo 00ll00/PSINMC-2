@@ -1,0 +1,12 @@
+execute positioned ^0 ^-2 ^ run function ps:menu/main/tools/circle/show
+execute positioned ^0 ^-3 ^ run function ps:menu/main/tools/rectangle/show
+execute positioned ^-1.5 ^1 ^ run function ps:menu/main/tools/eraser/show
+execute positioned ^-1.5 ^0 ^ run function ps:menu/main/tools/pencil/show
+execute positioned ^-1.5 ^-1 ^ run function ps:menu/main/tools/brush/show
+execute positioned ^-1.5 ^-2 ^ run function ps:menu/main/tools/airbrush/show
+execute positioned ^-1.5 ^-3 ^ run function ps:menu/main/tools/fill/show
+execute positioned ^-3 ^1 ^ run function ps:menu/main/tools/eyedropper/show
+execute positioned ^-3 ^0 ^ run function ps:menu/main/tools/burn/show
+execute positioned ^-3 ^-1 ^ run function ps:menu/main/tools/dodge/show
+execute positioned ^-3 ^-2 ^ run function ps:menu/main/tools/noise/show
+execute positioned ^-3 ^-3 ^ run function ps:menu/main/tools/blur/show

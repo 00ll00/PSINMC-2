@@ -1,0 +1,2 @@
+data modify block 29999999 6 3006 Text1 set value '[{"translate":"ps.actionbar.pos"},{"score": {"name": "$focus.x","objective": "PS.mem"},"color":"#ffffff"},",",{"score": {"name": "$focus.y","objective": "PS.mem"},"color":"#ffffff"},",",{"score": {"name": "$focus.z","objective": "PS.mem"},"color":"#ffffff"}]'
+data modify block 29999999 6 3006 Text2 set value '[{"nbt": "Text2","block": "29999999 6 3006","interpret": true},{"nbt": "Text1","block": "29999999 6 3006","interpret": true}," "]'
