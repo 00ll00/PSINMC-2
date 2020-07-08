@@ -1,4 +1,3 @@
-function ps:players/checknew
 
 #clear invalid markers
 execute as @e[tag=PS.players.owned] run function ps:players/clear_i

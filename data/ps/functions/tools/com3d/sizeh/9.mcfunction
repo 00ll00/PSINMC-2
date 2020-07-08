@@ -1,242 +1,242 @@
-execute positioned ~-4.0 ~-2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~-1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~-1.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~-1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~0.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~0.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~0.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~0.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~0.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~1.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-4.0 ~2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-2.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-2.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~0.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~0.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~0.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~0.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~2.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~2.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-3.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~0.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~0.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~0.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~0.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-2.0 ~4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~-1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~0.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~0.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~-1.0 ~4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-4.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-4.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-2.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-2.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~-1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~0.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~0.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~2.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~2.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~4.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~0.0 ~4.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~-1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~0.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~0.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~1.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~1.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~3.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~4.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~1.0 ~4.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~0.0 ~-4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~0.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~0.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~0.0 ~4.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~2.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~2.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~3.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~3.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~2.0 ~4.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-2.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-2.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~-1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~0.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~0.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~0.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~0.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~-3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~1.0 ~3.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~2.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~2.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~2.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~2.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~3.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~3.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~3.0 ~3.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~-2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~-1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~-1.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~-1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~0.0 ~-2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~0.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~0.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~0.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~0.0 ~2.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~1.0 ~-1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~1.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~1.0 ~1.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
-execute positioned ~4.0 ~2.0 ~0.0 run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~-2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~-1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~-1.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~-1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~0.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~0.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~0.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~0.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~0.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~1.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-4.0 ~2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-2.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-2.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~0.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~0.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~0.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~0.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~2.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~2.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-3.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~0.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~0.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~0.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~0.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-2.0 ~4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~-1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~0.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~0.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~-1.0 ~4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-4.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-4.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-2.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-2.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~-1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~0.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~0.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~2.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~2.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~4.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~0.0 ~4.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~-1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~0.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~0.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~1.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~1.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~3.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~4.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~1.0 ~4.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~0.0 ~-4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~0.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~0.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~0.0 ~4.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~2.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~2.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~3.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~3.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~2.0 ~4.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-2.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-2.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~-1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~0.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~0.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~0.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~0.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~-3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~1.0 ~3.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~2.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~2.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~2.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~2.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~3.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~3.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~3.0 ~3.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~-2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~-1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~-1.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~-1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~0.0 ~-2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~0.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~0.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~0.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~0.0 ~2.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~1.0 ~-1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~1.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~1.0 ~1.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
+execute positioned ~4.0 ~2.0 ~0.0 if block ~ ~ ~ #ps:air run summon area_effect_cloud ~ ~ ~ {Radius:0,Tags:["PS.tools.stroke"]}
