@@ -19,3 +19,6 @@ kill @e[type=item,nbt={Item:{tag:{PS_tool:1b}}}]
 
 #clear color raw
 execute as @e[tag=PS.color.raw] if score @s PS.color.rawid > $color.maxraw PS.const run kill @s
+
+#remove tag color.raw.new
+tag @e[tag=PS.color.raw.new] remove PS.color.raw.new
