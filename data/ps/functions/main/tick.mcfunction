@@ -1,3 +1,5 @@
+#main clock
+scoreboard players add $clock.tick PS.mem 1
 
 #clear invalid markers
 execute as @e[tag=PS.players.owned] run function ps:players/clear_i
@@ -6,7 +8,7 @@ execute as @e[tag=PS.players.owned] run function ps:players/clear_i
 execute unless entity 0-0110-5053-0-1 run summon armor_stand ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.focus.marker"],Marker:1b,Invisible:1b}
 
 #progress for each player
-execute as @a at @s run function ps:players/tick
+execute as @a[tag=PS.op,gamemode=creative] at @s run function ps:players/tick
 
 #cursor menu
 kill @e[tag=PS.menu.cursor]

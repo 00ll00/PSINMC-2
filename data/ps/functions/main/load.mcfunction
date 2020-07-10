@@ -43,6 +43,7 @@ scoreboard objectives add PS.color.g2 dummy
 scoreboard objectives add PS.color.b2 dummy
 scoreboard objectives add PS.color.a2 dummy
 scoreboard objectives add PS.color.rawid dummy
+scoreboard objectives add PS.color.rawtk dummy
 
 scoreboard objectives add PS.players.id dummy
 scoreboard objectives add PS.players.owner dummy
