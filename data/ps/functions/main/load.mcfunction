@@ -29,6 +29,16 @@ scoreboard objectives add PS.tools.rev dummy
 scoreboard objectives add PS.tools.size dummy
 scoreboard objectives add PS.tools.clr dummy
 scoreboard objectives add PS.tools.hold dummy
+scoreboard objectives add PS.tools.shape.0 dummy
+scoreboard objectives add PS.tools.shape.1 dummy
+scoreboard objectives add PS.tools.shape.2 dummy
+scoreboard objectives add PS.tools.shape.3 dummy
+scoreboard objectives add PS.tools.shape.4 dummy
+scoreboard objectives add PS.tools.shape.5 dummy
+scoreboard objectives add PS.tools.shape.6 dummy
+scoreboard objectives add PS.tools.shape.7 dummy
+scoreboard objectives add PS.tools.shape.8 dummy
+scoreboard objectives add PS.tools.shape.9 dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy

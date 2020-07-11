@@ -1,4 +1,5 @@
 #as player
+scoreboard players set #tools.inter PS.mem 0
 function ps:tools/com/size
 scoreboard players operation $color.r PS.mem = @s PS.color.r
 scoreboard players operation $color.g PS.mem = @s PS.color.g

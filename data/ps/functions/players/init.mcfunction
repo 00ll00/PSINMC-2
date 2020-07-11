@@ -5,7 +5,7 @@ tag @s add PS.op
 scoreboard players add @s PS.players.id 0
 execute as @s[scores={PS.players.id=0}] store result score @s PS.players.id run scoreboard players add $players.id.max PS.players.id 1
 
-#region
+#region scb
 scoreboard players set @s PS.focus.max 120
 scoreboard players set @s PS.focus.fix 1
 
@@ -22,15 +22,25 @@ scoreboard players set @s PS.tools.hollow 0
 scoreboard players set @s PS.tools.rev 0
 scoreboard players set @s PS.tools.size 1
 scoreboard players set @s PS.tools.hold 0
+scoreboard players set @s PS.tools.shape.0 7
+scoreboard players set @s PS.tools.shape.1 7
+scoreboard players set @s PS.tools.shape.2 6
+scoreboard players set @s PS.tools.shape.3 6
+scoreboard players set @s PS.tools.shape.4 5
+scoreboard players set @s PS.tools.shape.5 5
+scoreboard players set @s PS.tools.shape.6 4
+scoreboard players set @s PS.tools.shape.7 3
+scoreboard players set @s PS.tools.shape.8 2
+scoreboard players set @s PS.tools.shape.9 1
 
 scoreboard players set @s PS.color.r1 0
 scoreboard players set @s PS.color.g1 0
 scoreboard players set @s PS.color.b1 0
-scoreboard players set @s PS.color.a1 0
+scoreboard players set @s PS.color.a1 7
 scoreboard players set @s PS.color.r2 7
 scoreboard players set @s PS.color.g2 7
 scoreboard players set @s PS.color.b2 7
-scoreboard players set @s PS.color.a2 0
+scoreboard players set @s PS.color.a2 7
 
 scoreboard players set @s PS.key.sft.s 0
 scoreboard players set @s PS.key.sft.cd 0
