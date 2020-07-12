@@ -22,6 +22,10 @@ execute store result score $focus.x PS.mem run data get entity 0-0110-5053-0-1 P
 execute store result score $focus.y PS.mem run data get entity 0-0110-5053-0-1 Pos[1]
 execute store result score $focus.z PS.mem run data get entity 0-0110-5053-0-1 Pos[2]
 
+scoreboard players operation @s PS.focus.x = $focus.x PS.mem
+scoreboard players operation @s PS.focus.y = $focus.y PS.mem
+scoreboard players operation @s PS.focus.z = $focus.z PS.mem
+
 #set cursor (old)
 #execute as @e[tag=PS.focus.cursor,tag=PS.players.belonging] run function ps:focus/block/cursor
 #execute at 0-0110-5053-0-1 run tp @e[tag=PS.focus.cursor,tag=PS.players.belonging] ~.5 ~.5 ~.5
