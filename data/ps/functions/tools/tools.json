@@ -2,7 +2,7 @@
     {
         "id":"eraser",
         "name":{"translate":"ps.tools.eraser","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1","tool_mode"],
         "description":{"translate":"ps.desc.eraser"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -13,7 +13,7 @@
     {
         "id":"pencil",
         "name":{"translate":"ps.tools.pencil","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1","tool_mode"],
         "description":{"translate":"ps.desc.pencil"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -24,7 +24,7 @@
     {
         "id":"brush",
         "name":{"translate":"ps.tools.brush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
         "description":{"translate":"ps.desc.brush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -35,7 +35,7 @@
     {
         "id":"airbrush",
         "name":{"translate":"ps.tools.airbrush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
         "description":{"translate":"ps.desc.airbrush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -51,6 +51,15 @@
         "mouse_events":["dn","hd","up","upws"],
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
+    },
+    {
+        "id":"checked",
+        "name":{"translate":"ps.tools.checked","color":"gold","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","tool_mode"],
+        "description":{"translate":"ps.desc.checked"},
+        "mouse_events":["dn","hd","up"],
+        "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
     {
         "id":"eraser3d",
@@ -92,6 +101,14 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 1"]
+    },
+    {
+        "id":"tp",
+        "name":{"translate":"ps.tools.tp","color":"light_purple","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "description":{"translate":"ps.desc.tp"},
+        "mouse_events":["dn"],
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
     {

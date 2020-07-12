@@ -86,6 +86,7 @@ scoreboard players add $players.id.max PS.players.id 0
 scoreboard players add $ctrl.id.max PS.ctrl.id 0
 
 scoreboard players set $-1 PS.const -1
+scoreboard players set $2 PS.const 2
 scoreboard players set $4 PS.const 4
 scoreboard players set $8 PS.const 8
 scoreboard players set $10 PS.const 10

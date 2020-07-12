@@ -1,6 +1,10 @@
-scoreboard players operation $color.r PS.mem = @s PS.color.r
-scoreboard players operation $color.g PS.mem = @s PS.color.g
-scoreboard players operation $color.b PS.mem = @s PS.color.b
-scoreboard players operation $color.a PS.mem = @s PS.color.a
-data modify block 29999999 6 3006 Text1 set value '[{"translate":"ps.actionbar.color"},{"score": {"name": "$color.r","objective": "PS.mem"},"color":"#ff0000"},{"score": {"name": "$color.g","objective": "PS.mem"},"color":"#00ff00"},{"score": {"name": "$color.b","objective": "PS.mem"},"color":"#0000ff"},{"score": {"name": "$color.a","objective": "PS.mem"},"color":"#ffffff"}]'
+scoreboard players operation $color.r1 PS.mem = @s PS.color.r1
+scoreboard players operation $color.g1 PS.mem = @s PS.color.g1
+scoreboard players operation $color.b1 PS.mem = @s PS.color.b1
+scoreboard players operation $color.a1 PS.mem = @s PS.color.a1
+scoreboard players operation $color.r2 PS.mem = @s PS.color.r2
+scoreboard players operation $color.g2 PS.mem = @s PS.color.g2
+scoreboard players operation $color.b2 PS.mem = @s PS.color.b2
+scoreboard players operation $color.a2 PS.mem = @s PS.color.a2
+data modify block 29999999 6 3006 Text1 set value '[{"translate":"ps.actionbar.color"},{"score": {"name": "$color.r1","objective": "PS.mem"},"color":"#ff0000"},{"score": {"name": "$color.g1","objective": "PS.mem"},"color":"#00ff00"},{"score": {"name": "$color.b1","objective": "PS.mem"},"color":"#0000ff"},{"score": {"name": "$color.a1","objective": "PS.mem"},"color":"#ffffff"}," ",{"score": {"name": "$color.r2","objective": "PS.mem"},"color":"#ff0000"},{"score": {"name": "$color.g2","objective": "PS.mem"},"color":"#00ff00"},{"score": {"name": "$color.b2","objective": "PS.mem"},"color":"#0000ff"},{"score": {"name": "$color.a2","objective": "PS.mem"},"color":"#ffffff"}]'
 data modify block 29999999 6 3006 Text2 set value '[{"nbt": "Text2","block": "29999999 6 3006","interpret": true},{"nbt": "Text1","block": "29999999 6 3006","interpret": true}," "]'

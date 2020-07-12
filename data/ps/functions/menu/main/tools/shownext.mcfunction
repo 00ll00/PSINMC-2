@@ -1,3 +1,4 @@
+execute positioned ^0 ^-1 ^ run function ps:menu/main/tools/checked/show
 execute positioned ^0 ^-2 ^ run function ps:menu/main/tools/circle/show
 execute positioned ^0 ^-3 ^ run function ps:menu/main/tools/rectangle/show
 execute positioned ^-1.5 ^1 ^ run function ps:menu/main/tools/eraser/show

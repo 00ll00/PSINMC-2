@@ -30,7 +30,7 @@ execute unless score @s PS.key.lmb.on matches 0 run function ps:key/lmb/check
 execute if score @s PS.menu.show matches 1 at @s run function ps:focus/menu/call
 
 #actionbar
-function ps:players/actionbar/call
+execute in minecraft:overworld run function ps:players/actionbar/call
 
 #return tags
 tag @s remove PS.players.op
