@@ -5,3 +5,14 @@ scoreboard players operation @s PS.color.b = @s PS.color.b1
 scoreboard players operation @s PS.color.a = @s PS.color.a1
 
 scoreboard players operation $tools.size PS.mem = @s PS.tools.size
+
+scoreboard players operation $tools.shape.0 PS.mem = @s PS.tools.shape.0
+scoreboard players operation $tools.shape.1 PS.mem = @s PS.tools.shape.1
+scoreboard players operation $tools.shape.2 PS.mem = @s PS.tools.shape.2
+scoreboard players operation $tools.shape.3 PS.mem = @s PS.tools.shape.3
+scoreboard players operation $tools.shape.4 PS.mem = @s PS.tools.shape.4
+scoreboard players operation $tools.shape.5 PS.mem = @s PS.tools.shape.5
+scoreboard players operation $tools.shape.6 PS.mem = @s PS.tools.shape.6
+scoreboard players operation $tools.shape.7 PS.mem = @s PS.tools.shape.7
+scoreboard players operation $tools.shape.8 PS.mem = @s PS.tools.shape.8
+scoreboard players operation $tools.shape.9 PS.mem = @s PS.tools.shape.9

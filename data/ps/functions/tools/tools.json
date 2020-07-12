@@ -33,6 +33,17 @@
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
     {
+        "id":"airbrush",
+        "name":{"translate":"ps.tools.airbrush","color":"gold","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],
+        "description":{"translate":"ps.tools.desc.airbrush"},
+        "mouse_events":["dn","hd","up"],
+        "event_q":"size_up",
+        "event_f":"size_dn",
+        "event_fws":"color_exc",
+        "selected":["scoreboard players set @s PS.focus.fix 1"]
+    },
+    {
         "id":"eyedropper",
         "name":{"translate":"ps.tools.eyedropper","color":"gold","italic":false},
         "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],

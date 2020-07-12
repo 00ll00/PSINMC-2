@@ -1,6 +1,9 @@
+#region chunks
 forceload add 0 0
 forceload add 29999984 2992
+#endregion
 
+#region scb
 scoreboard objectives add PS.mem dummy
 scoreboard objectives add PS.const dummy
 
@@ -71,7 +74,9 @@ scoreboard objectives add PS.key.rmb.s dummy
 scoreboard objectives add PS.key.q minecraft.dropped:minecraft.carrot_on_a_stick
 
 scoreboard objectives add PS.tps.show dummy
+#endregion
 
+#region values
 scoreboard players set $focus.menu.dist.max PS.const 16
 scoreboard players set $focus.block.const PS.const 1290
 scoreboard players set $focus.block.const2 PS.const 1664100
@@ -81,12 +86,15 @@ scoreboard players add $players.id.max PS.players.id 0
 scoreboard players add $ctrl.id.max PS.ctrl.id 0
 
 scoreboard players set $-1 PS.const -1
+scoreboard players set $4 PS.const 4
 scoreboard players set $8 PS.const 8
 scoreboard players set $10 PS.const 10
 scoreboard players set $1000 PS.const 1000
 scoreboard players set $10000 PS.const 10000
 scoreboard players set $1000000 PS.const 1000000
+#endregion
 
+#region teams
 team add ps.blue
 team modify ps.blue color blue
 team add ps.red
@@ -101,6 +109,7 @@ team add ps.aqua
 team modify ps.aqua color aqua
 team add ps.white
 team modify ps.white color white
+#endregion
 
 #tools
 setblock 29999999 5 3006 minecraft:jukebox
@@ -113,6 +122,7 @@ bossbar add ps:tps {"translate": "ps.tps.title","color":"gold"}
 bossbar set ps:tps max 20
 setblock 29999999 5 3007 minecraft:repeating_command_block{auto:1b,Command:"help me"}
 
+#markers
 #define entity 0-0110-5053-0-1 focus marker
 summon armor_stand ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.focus.marker"],Marker:1b,Invisible:1b}
 #define entity 0-0110-5053-0-2 math marker
