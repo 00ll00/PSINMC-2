@@ -46,7 +46,7 @@
     {
         "id":"eyedropper",
         "name":{"translate":"ps.tools.eyedropper","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
         "description":{"translate":"ps.desc.eyedropper"},
         "mouse_events":["dn","hd","up","upws"],
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
