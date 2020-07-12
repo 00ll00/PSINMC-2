@@ -89,6 +89,7 @@ scoreboard players set $-1 PS.const -1
 scoreboard players set $4 PS.const 4
 scoreboard players set $8 PS.const 8
 scoreboard players set $10 PS.const 10
+scoreboard players set $16 PS.const 16
 scoreboard players set $1000 PS.const 1000
 scoreboard players set $10000 PS.const 10000
 scoreboard players set $1000000 PS.const 1000000

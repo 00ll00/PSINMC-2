@@ -73,6 +73,17 @@
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
     {
+        "id":"airbrush3d",
+        "name":{"translate":"ps.tools.airbrush3d","color":"blue","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "description":{"translate":"ps.tools.desc.airbrush3d"},
+        "mouse_events":["dn","hd","up"],
+        "event_q":"size_up",
+        "event_f":"size_dn",
+        "event_fws":"color_exc",
+        "selected":["scoreboard players set @s PS.focus.fix 0"]
+    },
+    {
         "id":"cstm",
         "name":{"translate":"ps.tools.cstm","color":"red","italic":false},
         "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],

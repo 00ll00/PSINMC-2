@@ -2,10 +2,16 @@ scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c1] PS.colo
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c1] PS.color.g = $ctrl.clrpk.g1 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c1] PS.color.b = $ctrl.clrpk.b1 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c1] PS.color.a = $ctrl.clrpk.a1 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a1] PS.color.r = $ctrl.clrpk.a1 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a1] PS.color.g = $ctrl.clrpk.a1 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a1] PS.color.b = $ctrl.clrpk.a1 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c2] PS.color.r = $ctrl.clrpk.r2 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c2] PS.color.g = $ctrl.clrpk.g2 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c2] PS.color.b = $ctrl.clrpk.b2 PS.mem
 scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.c2] PS.color.a = $ctrl.clrpk.a2 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a2] PS.color.r = $ctrl.clrpk.a2 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a2] PS.color.g = $ctrl.clrpk.a2 PS.mem
+scoreboard players operation @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a2] PS.color.b = $ctrl.clrpk.a2 PS.mem
 scoreboard players operation $ctrl.clrpk.clr PS.mem = @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.bc] PS.tools.clr
 execute if score $ctrl.clrpk.clr PS.mem matches 0 run scoreboard players operation $ctrl.clrpk.r PS.mem = $ctrl.clrpk.r1 PS.mem
 execute if score $ctrl.clrpk.clr PS.mem matches 0 run scoreboard players operation $ctrl.clrpk.g PS.mem = $ctrl.clrpk.g1 PS.mem
