@@ -44,6 +44,15 @@
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
     {
+        "id":"fill",
+        "name":{"translate":"ps.tools.fill","color":"gold","italic":false},
+        "actionbar":["tool_name","focus_pos","color_c1","tool_mode"],
+        "description":{"translate":"ps.desc.fill"},
+        "mouse_events":["dn","hd","up"],
+        "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 0"]
+    },
+    {
         "id":"eyedropper",
         "name":{"translate":"ps.tools.eyedropper","color":"gold","italic":false},
         "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
