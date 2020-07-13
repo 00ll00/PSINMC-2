@@ -53,6 +53,28 @@
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
     {
+        "id":"burn",
+        "name":{"translate":"ps.tools.burn","color":"gold","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "description":{"translate":"ps.desc.burn"},
+        "mouse_events":["dn","hd","up"],
+        "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
+        "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 1"]
+    },
+    {
+        "id":"dodge",
+        "name":{"translate":"ps.tools.dodge","color":"gold","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "description":{"translate":"ps.desc.dodge"},
+        "mouse_events":["dn","hd","up"],
+        "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
+        "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 1"]
+    },
+    {
         "id":"checked",
         "name":{"translate":"ps.tools.checked","color":"gold","italic":false},
         "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","tool_mode"],

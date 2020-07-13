@@ -1,6 +1,6 @@
 #as stroke
 # output: $tools.shape
-
+#TODO shape matche size
 scoreboard players set #tools.shape.get PS.mem 0
 execute if score #tools.shape.get PS.mem matches 0 store success score #tools.shape.get PS.mem if entity @s[tag=PS.tools.stroke.r9] run scoreboard players operation $tools.shape PS.mem = $tools.shape.9 PS.mem
 execute if score #tools.shape.get PS.mem matches 0 store success score #tools.shape.get PS.mem if entity @s[tag=PS.tools.stroke.r8] run scoreboard players operation $tools.shape PS.mem = $tools.shape.8 PS.mem
