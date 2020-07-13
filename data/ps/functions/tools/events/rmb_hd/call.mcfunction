@@ -5,8 +5,9 @@ execute if score @s PS.tools.type matches 4 run function ps:tools/airbrush/hd
 execute if score @s PS.tools.type matches 5 run function ps:tools/eyedropper/hd
 execute if score @s PS.tools.type matches 6 run function ps:tools/burn/hd
 execute if score @s PS.tools.type matches 7 run function ps:tools/dodge/hd
-execute if score @s PS.tools.type matches 8 run function ps:tools/checked/hd
-execute if score @s PS.tools.type matches 9 run function ps:tools/eraser3d/hd
-execute if score @s PS.tools.type matches 10 run function ps:tools/pencil3d/hd
-execute if score @s PS.tools.type matches 11 run function ps:tools/airbrush3d/hd
-execute if score @s PS.tools.type matches 12 run function ps:tools/cstm/hd
+execute if score @s PS.tools.type matches 8 run function ps:tools/blur/hd
+execute if score @s PS.tools.type matches 9 run function ps:tools/checked/hd
+execute if score @s PS.tools.type matches 10 run function ps:tools/eraser3d/hd
+execute if score @s PS.tools.type matches 11 run function ps:tools/pencil3d/hd
+execute if score @s PS.tools.type matches 12 run function ps:tools/airbrush3d/hd
+execute if score @s PS.tools.type matches 13 run function ps:tools/cstm/hd
