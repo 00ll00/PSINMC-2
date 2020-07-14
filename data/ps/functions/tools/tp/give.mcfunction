@@ -1,2 +1,2 @@
-clear @s minecraft:carrot_on_a_stick{PS_tool_id:15}
-give @s minecraft:carrot_on_a_stick{"PS_tool": true, "PS_tool_id": 15, "display": {"Name": "{\"translate\": \"ps.tools.tp\", \"color\": \"light_purple\", \"italic\": false}", "Lore": ["{\"translate\": \"ps.desc.tp\"}", ""]}, "PS_actionbar": ["tool_name", "focus_pos", "tool_mode"]}
+clear @s minecraft:carrot_on_a_stick{PS_tool_id:17}
+give @s minecraft:carrot_on_a_stick{"PS_tool": true, "PS_tool_id": 17, "display": {"Name": "{\"translate\": \"ps.tools.tp\", \"color\": \"light_purple\", \"italic\": false}", "Lore": ["{\"translate\": \"ps.desc.tp\"}", "", "[{\"translate\": \"ps.key.qws\", \"color\": \"white\", \"italic\": false}, \": \", {\"translate\": \"ps.action.menu_show\"}]"]}, "PS_tool_event_qws": "menu_show", "PS_actionbar": ["tool_name", "focus_pos", "tool_mode"]}

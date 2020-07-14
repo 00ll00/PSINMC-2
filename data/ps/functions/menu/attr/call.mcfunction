@@ -11,6 +11,8 @@ execute if score @s PS.tools.type matches 10 run function ps:menu/attr/checked
 execute if score @s PS.tools.type matches 11 run function ps:menu/attr/eraser3d
 execute if score @s PS.tools.type matches 12 run function ps:menu/attr/pencil3d
 execute if score @s PS.tools.type matches 13 run function ps:menu/attr/airbrush3d
-execute if score @s PS.tools.type matches 14 run function ps:menu/attr/cstm
-execute if score @s PS.tools.type matches 15 run function ps:menu/attr/tp
-execute if score @s PS.tools.type matches 16 run function ps:menu/attr/dbg_color
+execute if score @s PS.tools.type matches 14 run function ps:menu/attr/peel
+execute if score @s PS.tools.type matches 15 run function ps:menu/attr/fill3d
+execute if score @s PS.tools.type matches 16 run function ps:menu/attr/cstm
+execute if score @s PS.tools.type matches 17 run function ps:menu/attr/tp
+execute if score @s PS.tools.type matches 18 run function ps:menu/attr/dbg_color

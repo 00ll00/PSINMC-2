@@ -7,6 +7,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -18,6 +19,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -29,6 +31,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -40,6 +43,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -49,6 +53,7 @@
         "actionbar":["tool_name","focus_pos","color_c1","tool_mode"],
         "description":{"translate":"ps.desc.fill"},
         "mouse_events":["dn","hd","up"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
@@ -58,6 +63,7 @@
         "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
         "description":{"translate":"ps.desc.eyedropper"},
         "mouse_events":["dn","hd","up","upws"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
@@ -69,6 +75,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -80,6 +87,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -91,6 +99,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -102,6 +111,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -113,6 +123,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
     {
@@ -123,6 +134,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
     {
@@ -133,7 +145,26 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "selected":["scoreboard players set @s PS.focus.fix 0"]
+    },
+    {
+        "id":"peel",
+        "name":{"translate":"ps.tools.peel","color":"blue","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "description":{"translate":"ps.desc.peel"},
+        "mouse_events":["dn","hd","up"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "selected":["scoreboard players set @s PS.focus.fix 0"]
+    },
+    {
+        "id":"fill3d",
+        "name":{"translate":"ps.tools.fill3d","color":"blue","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "description":{"translate":"ps.desc.fill3d"},
+        "mouse_events":["dn","hd","up"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     },
     {
@@ -144,6 +175,7 @@
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
@@ -153,6 +185,7 @@
         "actionbar":["tool_name","focus_pos","tool_mode"],
         "description":{"translate":"ps.desc.tp"},
         "mouse_events":["dn"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "selected":["scoreboard players set @s PS.focus.fix 1"]
     },
     {
@@ -160,6 +193,7 @@
         "name":{"translate":"ps.tools.dbg_color","color":"red","italic":true},
         "description":{"translate":"ps.desc.dbg_color"},
         "mouse_events":["dn","up"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "selected":["scoreboard players set @s PS.focus.fix 0"]
     }
 ]
