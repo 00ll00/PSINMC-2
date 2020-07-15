@@ -422,8 +422,8 @@
                 "text":{"translate":"ps.menu.main.clear","bold":true,"color":"gold"},
                 "offset":[0,1.4,0],
                 "inf":{"translate":"ps.inf.menu.clear","color":"aqua","with":[{"nbt":"menu.clear","storage":"ps:cache","interpret":true}]},
-                "event_lmb":{"action":"run_command","value":"function main:clear"},
-                "event_exit":{"action":"run_command","value":"function main:clear"}
+                "event_lmb":{"action":"run_command","value":"function ps:misc/clear/call"},
+                "event_exit":{"action":"run_command","value":"function ps:misc/clear/call"}
             },
             {
                 "id":"sys",
