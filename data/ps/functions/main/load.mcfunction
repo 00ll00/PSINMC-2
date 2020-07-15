@@ -5,6 +5,7 @@ forceload add 29999984 2992
 
 #region scb
 scoreboard objectives add PS.mem dummy
+scoreboard objectives add PS.sys dummy
 scoreboard objectives add PS.const dummy
 
 scoreboard objectives add PS.focus.max dummy
@@ -77,13 +78,12 @@ scoreboard objectives add PS.tps.show dummy
 #endregion
 
 #region values
-scoreboard players set $focus.menu.dist.max PS.const 16
+scoreboard players set $focus.menu.dist.max PS.sys 16
+scoreboard players set $color.maxraw PS.sys 100
+scoreboard players set $tps.maxmem PS.sys 10
+
 scoreboard players set $focus.block.const PS.const 1290
 scoreboard players set $focus.block.const2 PS.const 1664100
-scoreboard players set $color.maxraw PS.const 100
-scoreboard players set $tps.maxmem PS.const 10
-scoreboard players add $players.id.max PS.players.id 0
-scoreboard players add $ctrl.id.max PS.ctrl.id 0
 
 scoreboard players set $-1 PS.const -1
 scoreboard players set $2 PS.const 2
@@ -94,6 +94,9 @@ scoreboard players set $16 PS.const 16
 scoreboard players set $1000 PS.const 1000
 scoreboard players set $10000 PS.const 10000
 scoreboard players set $1000000 PS.const 1000000
+
+scoreboard players add $players.id.max PS.players.id 0
+scoreboard players add $ctrl.id.max PS.ctrl.id 0
 #endregion
 
 #region teams

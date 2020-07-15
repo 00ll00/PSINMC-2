@@ -1,71 +1,71 @@
 #as player at player
 #outputs:
-#   x,y,z sx,sy,sz ox,oy,oz
-#   get: -1:on vacuum 0:none 1:on block 2:on air
-#   face: 0:none 1:x+ 2:x- 3:y+ 4:y- 5:z+ 6:z-
+#   $focus.x/y/z sx/y/z ox/y/z
+#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air
+#   $focus.f: 0:none 1:x+ 2:x- 3:y+ 4:y- 5:z+ 6:z-
 
 scoreboard players operation $focus.ox PS.mem = @s PS.focus.x
 scoreboard players operation $focus.oy PS.mem = @s PS.focus.y
 scoreboard players operation $focus.oz PS.mem = @s PS.focus.z
 
 #region
-scoreboard players operation $focus.dm PS.mem = @s PS.focus.max
-scoreboard players operation $focus.dms PS.mem = $focus.dm PS.mem
-scoreboard players operation $focus.dms PS.mem *= $focus.dm PS.mem
+scoreboard players operation #focus.dm PS.mem = @s PS.focus.max
+scoreboard players operation #focus.dms PS.mem = #focus.dm PS.mem
+scoreboard players operation #focus.dms PS.mem *= #focus.dm PS.mem
 
 execute align xyz positioned ^ ^ ^1 as 0-0110-5053-0-1 run tp ~ ~ ~
-execute store result score $focus.dx PS.mem run data get entity 0-0110-5053-0-1 Pos[0] 1290
-execute store result score $focus.dy PS.mem run data get entity 0-0110-5053-0-1 Pos[1] 1290
-execute store result score $focus.dz PS.mem run data get entity 0-0110-5053-0-1 Pos[2] 1290
+execute store result score #focus.dx PS.mem run data get entity 0-0110-5053-0-1 Pos[0] 1290
+execute store result score #focus.dy PS.mem run data get entity 0-0110-5053-0-1 Pos[1] 1290
+execute store result score #focus.dz PS.mem run data get entity 0-0110-5053-0-1 Pos[2] 1290
 execute store result score #focus.temp PS.mem run data get entity @s Pos[0]
 scoreboard players operation #focus.temp PS.mem *= $focus.block.const PS.const
-scoreboard players operation $focus.dx PS.mem -= #focus.temp PS.mem
+scoreboard players operation #focus.dx PS.mem -= #focus.temp PS.mem
 execute store result score #focus.temp PS.mem run data get entity @s Pos[1]
 scoreboard players operation #focus.temp PS.mem *= $focus.block.const PS.const
-scoreboard players operation $focus.dy PS.mem -= #focus.temp PS.mem
+scoreboard players operation #focus.dy PS.mem -= #focus.temp PS.mem
 execute store result score #focus.temp PS.mem run data get entity @s Pos[2]
 scoreboard players operation #focus.temp PS.mem *= $focus.block.const PS.const
-scoreboard players operation $focus.dz PS.mem -= #focus.temp PS.mem
+scoreboard players operation #focus.dz PS.mem -= #focus.temp PS.mem
 
 execute anchored eyes positioned ^ ^ ^ as 0-0110-5053-0-1 run tp ~ ~ ~
 data modify entity 0-0110-5053-0-1 FallDistance set from entity 0-0110-5053-0-1 Pos[0]
 data modify entity 0-0110-5053-0-1 Rotation[0] set from entity 0-0110-5053-0-1 FallDistance
-execute store result score $focus.bx PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
+execute store result score #focus.bx PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
 data modify entity 0-0110-5053-0-1 FallDistance set from entity 0-0110-5053-0-1 Pos[1]
 data modify entity 0-0110-5053-0-1 Rotation[0] set from entity 0-0110-5053-0-1 FallDistance
-execute store result score $focus.by PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
+execute store result score #focus.by PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
 data modify entity 0-0110-5053-0-1 FallDistance set from entity 0-0110-5053-0-1 Pos[2]
 data modify entity 0-0110-5053-0-1 Rotation[0] set from entity 0-0110-5053-0-1 FallDistance
-execute store result score $focus.bz PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
+execute store result score #focus.bz PS.mem run data get entity 0-0110-5053-0-1 Rotation[0] 1664100
 
-scoreboard players operation $focus.bx PS.mem %= $focus.block.const2 PS.const
-scoreboard players operation $focus.by PS.mem %= $focus.block.const2 PS.const
-scoreboard players operation $focus.bz PS.mem %= $focus.block.const2 PS.const
+scoreboard players operation #focus.bx PS.mem %= $focus.block.const2 PS.const
+scoreboard players operation #focus.by PS.mem %= $focus.block.const2 PS.const
+scoreboard players operation #focus.bz PS.mem %= $focus.block.const2 PS.const
 
-scoreboard players operation $focus.ax PS.mem = $focus.bx PS.mem
-scoreboard players operation $focus.ay PS.mem = $focus.by PS.mem
-scoreboard players operation $focus.az PS.mem = $focus.bz PS.mem
-scoreboard players operation $focus.ax PS.mem /= $focus.dx PS.mem
-scoreboard players operation $focus.ay PS.mem /= $focus.dy PS.mem
-scoreboard players operation $focus.az PS.mem /= $focus.dz PS.mem
+scoreboard players operation #focus.ax PS.mem = #focus.bx PS.mem
+scoreboard players operation #focus.ay PS.mem = #focus.by PS.mem
+scoreboard players operation #focus.az PS.mem = #focus.bz PS.mem
+scoreboard players operation #focus.ax PS.mem /= #focus.dx PS.mem
+scoreboard players operation #focus.ay PS.mem /= #focus.dy PS.mem
+scoreboard players operation #focus.az PS.mem /= #focus.dz PS.mem
 
-scoreboard players set $focus.rx PS.mem 1664100
-scoreboard players set $focus.ry PS.mem 1664100
-scoreboard players set $focus.rz PS.mem 1664100
-scoreboard players operation $focus.rx PS.mem /= $focus.dx PS.mem
-scoreboard players operation $focus.ry PS.mem /= $focus.dy PS.mem
-scoreboard players operation $focus.rz PS.mem /= $focus.dz PS.mem
+scoreboard players set #focus.rx PS.mem 1664100
+scoreboard players set #focus.ry PS.mem 1664100
+scoreboard players set #focus.rz PS.mem 1664100
+scoreboard players operation #focus.rx PS.mem /= #focus.dx PS.mem
+scoreboard players operation #focus.ry PS.mem /= #focus.dy PS.mem
+scoreboard players operation #focus.rz PS.mem /= #focus.dz PS.mem
 
-execute if score $focus.dx PS.mem matches 0.. run scoreboard players operation $focus.ax PS.mem -= $focus.rx PS.mem
-execute if score $focus.dy PS.mem matches 0.. run scoreboard players operation $focus.ay PS.mem -= $focus.ry PS.mem
-execute if score $focus.dz PS.mem matches 0.. run scoreboard players operation $focus.az PS.mem -= $focus.rz PS.mem
+execute if score #focus.dx PS.mem matches 0.. run scoreboard players operation #focus.ax PS.mem -= #focus.rx PS.mem
+execute if score #focus.dy PS.mem matches 0.. run scoreboard players operation #focus.ay PS.mem -= #focus.ry PS.mem
+execute if score #focus.dz PS.mem matches 0.. run scoreboard players operation #focus.az PS.mem -= #focus.rz PS.mem
 
-scoreboard players set $focus.s PS.mem 0
+scoreboard players set #focus.s PS.mem 0
 scoreboard players set $focus.sx PS.mem 0
 scoreboard players set $focus.sy PS.mem 0
 scoreboard players set $focus.sz PS.mem 0
 
-scoreboard players set $focus.d PS.mem 0
+scoreboard players set #focus.d PS.mem 0
 scoreboard players set $focus.g PS.mem 0
 scoreboard players set $focus.f PS.mem 0
 

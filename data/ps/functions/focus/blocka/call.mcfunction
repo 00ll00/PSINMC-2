@@ -1,15 +1,15 @@
 #as player at player
 #outputs:
-#   x,y,z ox,oy,oz
-#   get: -1:on vacuum 0:none 1:on block 2:on air
+#   $focus.x/y/z ox/y/z
+#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air
 
 scoreboard players operation $focus.ox PS.mem = @s PS.focus.x
 scoreboard players operation $focus.oy PS.mem = @s PS.focus.y
 scoreboard players operation $focus.oz PS.mem = @s PS.focus.z
 
-scoreboard players operation $focus.dm PS.mem = @s PS.focus.max
+scoreboard players operation #focus.dm PS.mem = @s PS.focus.max
 
-scoreboard players set $focus.d PS.mem 0
+scoreboard players set #focus.d PS.mem 0
 scoreboard players set $focus.g PS.mem 1
 
 execute anchored eyes positioned ^ ^ ^ run function ps:focus/blocka/recu

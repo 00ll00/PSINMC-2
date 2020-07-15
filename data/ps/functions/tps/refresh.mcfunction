@@ -3,7 +3,7 @@ scoreboard players set $tps.counter PS.mem 0
 
 #compute average
 execute store result score #tps.temp PS.mem run data get storage ps:tps mem
-execute if score #tps.temp PS.mem >= $tps.maxmem PS.const run function ps:tps/refresh_
+execute if score #tps.temp PS.mem >= $tps.maxmem PS.sys run function ps:tps/refresh_
 data modify storage ps:tps mem append from storage ps:tps now
 function ps:tps/getavg
 
