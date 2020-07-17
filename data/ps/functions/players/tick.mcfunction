@@ -1,4 +1,4 @@
-#as player at player
+#as player[sort=players.id] at player
 #get tags
 tag @s add PS.players.op
 execute as @e[tag=PS.players.owned] if score @s PS.players.owner = @a[tag=PS.players.op,limit=1] PS.players.id run tag @s add PS.players.belonging
@@ -31,6 +31,9 @@ execute if score @s PS.menu.show matches 1 at @s run function ps:focus/menu/call
 
 #actionbar
 execute in minecraft:overworld run function ps:players/actionbar/call
+
+#write data
+execute if data storage ps:players storage{needwrite:1b} run function ps:players/write
 
 #return tags
 tag @s remove PS.players.op

@@ -92,6 +92,7 @@ execute at 0-0110-5053-0-1 run summon falling_block ~.5 ~ ~.5 {Glowing:1b,BlockS
 
 #surface fix
 execute if score @s PS.focus.fix matches 1 if score $focus.g PS.mem matches 1 as 0-0110-5053-0-1 at @s run function ps:focus/block/fix
+execute if score @s PS.focus.fix matches 0 as 0-0110-5053-0-1 at @s run tp ~.5 ~.5 ~.5 
 
 #focus old
 kill @e[tag=PS.focus.old,tag=PS.players.belonging]

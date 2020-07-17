@@ -14,6 +14,12 @@ scoreboard objectives add PS.focus.get dummy
 scoreboard objectives add PS.focus.x dummy
 scoreboard objectives add PS.focus.y dummy
 scoreboard objectives add PS.focus.z dummy
+scoreboard objectives add PS.focus.r.x1 dummy
+scoreboard objectives add PS.focus.r.y1 dummy
+scoreboard objectives add PS.focus.r.z1 dummy
+scoreboard objectives add PS.focus.r.x2 dummy
+scoreboard objectives add PS.focus.r.y2 dummy
+scoreboard objectives add PS.focus.r.z2 dummy
 
 scoreboard objectives add PS.menu.layer dummy
 scoreboard objectives add PS.menu.show dummy
@@ -43,6 +49,9 @@ scoreboard objectives add PS.tools.shape.6 dummy
 scoreboard objectives add PS.tools.shape.7 dummy
 scoreboard objectives add PS.tools.shape.8 dummy
 scoreboard objectives add PS.tools.shape.9 dummy
+scoreboard objectives add PS.tools.whd.w dummy
+scoreboard objectives add PS.tools.whd.h dummy
+scoreboard objectives add PS.tools.whd.d dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy
@@ -108,6 +117,10 @@ team add ps.gold
 team modify ps.gold color gold
 team add ps.yellow
 team modify ps.yellow color yellow
+team add ps.gray
+team modify ps.gray color gray
+team add ps.dark_gray
+team modify ps.gray color dark_gray
 team add ps.green
 team modify ps.green color green
 team add ps.aqua

@@ -1,1 +1,0 @@
-summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.ctrl.gizmo","PS.ctrl.gizmo.base"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b}

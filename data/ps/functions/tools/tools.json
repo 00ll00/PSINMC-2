@@ -9,7 +9,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"pencil",
@@ -21,7 +24,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"brush",
@@ -33,7 +39,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"airbrush",
@@ -45,7 +54,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"fill",
@@ -55,7 +67,10 @@
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"eyedropper",
@@ -65,7 +80,10 @@
         "mouse_events":["dn","hd","up","upws"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"burn",
@@ -77,7 +95,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"dodge",
@@ -89,7 +110,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"blur",
@@ -101,7 +125,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"checked",
@@ -113,7 +140,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"eraser3d",
@@ -124,7 +154,10 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"pencil3d",
@@ -135,7 +168,10 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"airbrush3d",
@@ -147,7 +183,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"peel",
@@ -156,7 +195,10 @@
         "description":{"translate":"ps.desc.peel"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"fill3d",
@@ -165,7 +207,23 @@
         "description":{"translate":"ps.desc.fill3d"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
+    },
+    {
+        "id":"box",
+        "name":{"translate":"ps.tools.box","color":"blue","italic":false},
+        "actionbar":["tool_name","focus_pos","tool_whd","tool_mode"],
+        "description":{"translate":"ps.desc.box"},
+        "mouse_events":["dn","hd","up"],
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0",
+            "execute store result score $players.actionbar.showwhd PS.mem run data get storage ps:players storage.data.tools.box.showwhd",
+            "execute store result score $players.actionbar.postype PS.mem run data get storage ps:players storage.data.tools.box.postype"
+        ]
     },
     {
         "id":"cstm",
@@ -177,7 +235,10 @@
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"tp",
@@ -186,14 +247,20 @@
         "description":{"translate":"ps.desc.tp"},
         "mouse_events":["dn"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 1"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
     },
     {
         "id":"dbg_color",
         "name":{"translate":"ps.tools.dbg_color","color":"red","italic":true},
+        "actionbar":["tool_name"],
         "description":{"translate":"ps.desc.dbg_color"},
         "mouse_events":["dn","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "selected":["scoreboard players set @s PS.focus.fix 0"]
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 0"
+        ]
     }
 ]

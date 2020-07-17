@@ -1,11 +1,13 @@
 #as player
 tag @s add PS.op
+tag @s add PS.player.init
 
 #init id
 scoreboard players add @s PS.players.id 0
 execute as @s[scores={PS.players.id=0}] store result score @s PS.players.id run scoreboard players add $players.id.max PS.players.id 1
 
 #region scb
+
 scoreboard players set @s PS.focus.max 120
 scoreboard players set @s PS.focus.fix 1
 
@@ -50,3 +52,10 @@ scoreboard players set @s PS.key.lmb.on 0
 
 scoreboard players set @s PS.tps.show 0
 #endregion
+
+#summon datastorage
+scoreboard players set #players.init.temp PS.mem 0
+execute as @e[tag=PS.players.data] if score @s PS.players.owner = @a[tag=PS.player.init,limit=1] PS.players.id run scoreboard players set #players.init.temp PS.mem 1
+execute if score #players.init.temp PS.mem matches 0 run function ps:players/getstorage
+
+tag @s remove PS.player.init

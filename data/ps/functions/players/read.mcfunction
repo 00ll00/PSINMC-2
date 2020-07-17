@@ -16,3 +16,6 @@ scoreboard players operation $tools.shape.6 PS.mem = @s PS.tools.shape.6
 scoreboard players operation $tools.shape.7 PS.mem = @s PS.tools.shape.7
 scoreboard players operation $tools.shape.8 PS.mem = @s PS.tools.shape.8
 scoreboard players operation $tools.shape.9 PS.mem = @s PS.tools.shape.9
+
+data modify storage ps:players storage.data set from entity @e[tag=PS.players.belonging,tag=PS.players.data,limit=1] ArmorItems[0].tag.PS_players_data
+data modify storage ps:players storage.needwrite set value 0b
