@@ -19,7 +19,7 @@ scoreboard players set @s PS.tools.type 0
 scoreboard players set @s PS.tools.typeold 0
 scoreboard players set @s PS.tools.vect 0
 scoreboard players set @s PS.tools.fixed 0
-scoreboard players set @s PS.tools.attach 1
+scoreboard players set @s PS.focus.attach 1
 scoreboard players set @s PS.tools.hollow 0
 scoreboard players set @s PS.tools.rev 0
 scoreboard players set @s PS.tools.size 1

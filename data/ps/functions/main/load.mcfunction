@@ -33,7 +33,7 @@ scoreboard objectives add PS.tools.vect dummy
 scoreboard objectives add PS.tools.vecto dummy
 scoreboard objectives add PS.tools.fixed dummy
 scoreboard objectives add PS.tools.fixedo dummy
-scoreboard objectives add PS.tools.attach dummy
+scoreboard objectives add PS.focus.attach dummy
 scoreboard objectives add PS.tools.hollow dummy
 scoreboard objectives add PS.tools.rev dummy
 scoreboard objectives add PS.tools.size dummy

@@ -1,7 +1,7 @@
 #as player at player
 #outputs:
 #   $focus.x/y/z sx/y/z ox/y/z
-#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air
+#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air 3:on marker
 #   $focus.f: 0:none 1:x+ 2:x- 3:y+ 4:y- 5:z+ 6:z-
 
 scoreboard players operation $focus.ox PS.mem = @s PS.focus.x

@@ -1,7 +1,7 @@
 #as player at player
 #outputs:
 #   $focus.x/y/z ox/y/z
-#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air
+#   $focus.g: -1:on vacuum 0:none 1:on block 2:on air 3:on marker
 
 scoreboard players operation $focus.ox PS.mem = @s PS.focus.x
 scoreboard players operation $focus.oy PS.mem = @s PS.focus.y
@@ -16,6 +16,7 @@ execute anchored eyes positioned ^ ^ ^ run function ps:focus/blocka/recu
 
 execute store success score #focus.temp PS.mem at 0-0110-5053-0-1 if blocks ~ ~ ~ ~ ~ ~ ~ ~ ~ all
 execute if score #focus.temp PS.mem matches 0 run scoreboard players set $focus.g PS.mem -1
+execute if score #focus.temp PS.mem matches 3 run scoreboard players set $focus.g PS.mem 3
 execute if score $focus.g PS.mem matches 1 at 0-0110-5053-0-1 if block ~ ~ ~ #ps:air run scoreboard players set $focus.g PS.mem 2
 
 execute store result score $focus.x PS.mem run data get entity 0-0110-5053-0-1 Pos[0]
