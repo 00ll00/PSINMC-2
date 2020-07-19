@@ -54,8 +54,7 @@ scoreboard players set @s PS.tps.show 0
 #endregion
 
 #summon datastorage
-scoreboard players set #players.init.temp PS.mem 0
-execute as @e[tag=PS.players.data] if score @s PS.players.owner = @a[tag=PS.player.init,limit=1] PS.players.id run scoreboard players set #players.init.temp PS.mem 1
-execute if score #players.init.temp PS.mem matches 0 run function ps:players/getstorage
+execute as @e[tag=PS.players.data] if score @s PS.players.owner = @a[tag=PS.player.init,limit=1] PS.players.id run kill @s
+function ps:players/getstorage
 
 tag @s remove PS.player.init

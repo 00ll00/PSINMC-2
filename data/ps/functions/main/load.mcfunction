@@ -52,6 +52,7 @@ scoreboard objectives add PS.tools.shape.9 dummy
 scoreboard objectives add PS.tools.whd.w dummy
 scoreboard objectives add PS.tools.whd.h dummy
 scoreboard objectives add PS.tools.whd.d dummy
+scoreboard objectives add PS.tools.ready dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy
@@ -120,7 +121,7 @@ team modify ps.yellow color yellow
 team add ps.gray
 team modify ps.gray color gray
 team add ps.dark_gray
-team modify ps.gray color dark_gray
+team modify ps.dark_gray color dark_gray
 team add ps.green
 team modify ps.green color green
 team add ps.aqua
