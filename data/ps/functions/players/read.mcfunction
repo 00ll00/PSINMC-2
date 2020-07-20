@@ -6,6 +6,7 @@ scoreboard players operation @s PS.color.a = @s PS.color.a1
 
 scoreboard players operation $focus.attach PS.mem = @s PS.focus.attach
 scoreboard players operation $tools.size PS.mem = @s PS.tools.size
+scoreboard players operation $tools.hollow PS.mem = @s PS.tools.hollow
 
 scoreboard players operation $tools.shape.0 PS.mem = @s PS.tools.shape.0
 scoreboard players operation $tools.shape.1 PS.mem = @s PS.tools.shape.1

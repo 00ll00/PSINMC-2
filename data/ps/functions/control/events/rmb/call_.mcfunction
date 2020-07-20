@@ -13,14 +13,14 @@ execute as @s[tag=PS.ctrl.clrpk.sb] run function ps:control/components/clrpicker
 execute as @s[tag=PS.ctrl.clrpk.sa] run function ps:control/components/clrpicker/call_a
 
 #controls
-#   btn_mode_attach
-execute as @s[tag=PS.ctrl.mode.attach] run function ps:control/btn_mode_attach/call
-#   btn_mode_fixed
-execute as @s[tag=PS.ctrl.mode.fixed] run function ps:control/btn_mode_fixed/call
-#   btn_mode_hollow
-execute as @s[tag=PS.ctrl.mode.hollow] run function ps:control/btn_mode_hollow/call
-#   btn_mode_vect
-execute as @s[tag=PS.ctrl.mode.vect] run function ps:control/btn_mode_vect/call
+#   btn_focus_attach
+execute as @s[tag=PS.ctrl.mode.attach] run function ps:control/btn_focus_attach/call
+#   btn_focus_fixed
+execute as @s[tag=PS.ctrl.mode.fixed] run function ps:control/btn_focus_fixed/call
+#   btn_focus_vect
+execute as @s[tag=PS.ctrl.mode.vect] run function ps:control/btn_focus_vect/call
+#   btn_tools_hollow
+execute as @s[tag=PS.ctrl.mode.hollow] run function ps:control/btn_tools_hollow/call
 #   clrpk_c1c2
 execute if score $ctrl.clrpk.clr PS.mem matches 0 as @s[tag=PS.ctrl.clrpk.sr] run scoreboard players operation @a[tag=PS.players.op] PS.color.r1 = $ctrl.clrpk.r PS.mem
 execute if score $ctrl.clrpk.clr PS.mem matches 0 as @s[tag=PS.ctrl.clrpk.sg] run scoreboard players operation @a[tag=PS.players.op] PS.color.g1 = $ctrl.clrpk.g PS.mem

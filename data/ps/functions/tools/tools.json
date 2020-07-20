@@ -2,7 +2,7 @@
     {
         "id":"eraser",
         "name":{"translate":"ps.tools.eraser","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1","focus_mode"],
         "description":{"translate":"ps.desc.eraser"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -17,7 +17,7 @@
     {
         "id":"pencil",
         "name":{"translate":"ps.tools.pencil","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1","focus_mode"],
         "description":{"translate":"ps.desc.pencil"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -32,7 +32,7 @@
     {
         "id":"brush",
         "name":{"translate":"ps.tools.brush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
         "description":{"translate":"ps.desc.brush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -47,7 +47,7 @@
     {
         "id":"airbrush",
         "name":{"translate":"ps.tools.airbrush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
         "description":{"translate":"ps.desc.airbrush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -62,7 +62,7 @@
     {
         "id":"fill",
         "name":{"translate":"ps.tools.fill","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","color_c1","tool_mode"],
+        "actionbar":["tool_name","focus_pos","color_c1","focus_mode"],
         "description":{"translate":"ps.desc.fill"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -75,7 +75,7 @@
     {
         "id":"eyedropper",
         "name":{"translate":"ps.tools.eyedropper","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
         "description":{"translate":"ps.desc.eyedropper"},
         "mouse_events":["dn","hd","up","upws"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -88,7 +88,7 @@
     {
         "id":"burn",
         "name":{"translate":"ps.tools.burn","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
         "description":{"translate":"ps.desc.burn"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -103,7 +103,7 @@
     {
         "id":"dodge",
         "name":{"translate":"ps.tools.dodge","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
         "description":{"translate":"ps.desc.dodge"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -118,7 +118,7 @@
     {
         "id":"blur",
         "name":{"translate":"ps.tools.blur","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
         "description":{"translate":"ps.desc.blur"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -133,7 +133,7 @@
     {
         "id":"checked",
         "name":{"translate":"ps.tools.checked","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","focus_mode"],
         "description":{"translate":"ps.desc.checked"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -148,7 +148,7 @@
     {
         "id":"eraser3d",
         "name":{"translate":"ps.tools.eraser3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","focus_mode"],
         "description":{"translate":"ps.desc.eraser3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -162,7 +162,7 @@
     {
         "id":"pencil3d",
         "name":{"translate":"ps.tools.pencil3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","focus_mode"],
         "description":{"translate":"ps.desc.pencil3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -176,7 +176,7 @@
     {
         "id":"airbrush3d",
         "name":{"translate":"ps.tools.airbrush3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
         "description":{"translate":"ps.desc.airbrush3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -191,7 +191,7 @@
     {
         "id":"peel",
         "name":{"translate":"ps.tools.peel","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "actionbar":["tool_name","focus_pos","focus_mode"],
         "description":{"translate":"ps.desc.peel"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -203,7 +203,7 @@
     {
         "id":"fill3d",
         "name":{"translate":"ps.tools.fill3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "actionbar":["tool_name","focus_pos","focus_mode"],
         "description":{"translate":"ps.desc.fill3d"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -215,8 +215,9 @@
     {
         "id":"box",
         "name":{"translate":"ps.tools.box","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_whd","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","focus_mode"],
         "description":{"translate":"ps.desc.box"},
+        "tick_event":true,
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_build"}},
         "event_f":{"action":"tool_cancel","description":{"translate":"ps.action.tool_cancel"}},
@@ -235,7 +236,7 @@
     {
         "id":"cstm",
         "name":{"translate":"ps.tools.cstm","color":"red","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","tool_mode"],
+        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","focus_mode"],
         "description":{"translate":"ps.desc.cstm"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -250,7 +251,7 @@
     {
         "id":"tp",
         "name":{"translate":"ps.tools.tp","color":"light_purple","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_mode"],
+        "actionbar":["tool_name","focus_pos","focus_mode"],
         "description":{"translate":"ps.desc.tp"},
         "mouse_events":["dn"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},

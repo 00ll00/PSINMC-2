@@ -10,6 +10,7 @@ scoreboard objectives add PS.const dummy
 
 scoreboard objectives add PS.focus.max dummy
 scoreboard objectives add PS.focus.fix dummy
+scoreboard objectives add PS.focus.attach dummy
 scoreboard objectives add PS.focus.get dummy
 scoreboard objectives add PS.focus.x dummy
 scoreboard objectives add PS.focus.y dummy
@@ -33,7 +34,6 @@ scoreboard objectives add PS.tools.vect dummy
 scoreboard objectives add PS.tools.vecto dummy
 scoreboard objectives add PS.tools.fixed dummy
 scoreboard objectives add PS.tools.fixedo dummy
-scoreboard objectives add PS.focus.attach dummy
 scoreboard objectives add PS.tools.hollow dummy
 scoreboard objectives add PS.tools.rev dummy
 scoreboard objectives add PS.tools.size dummy
@@ -52,7 +52,17 @@ scoreboard objectives add PS.tools.shape.9 dummy
 scoreboard objectives add PS.tools.whd.w dummy
 scoreboard objectives add PS.tools.whd.h dummy
 scoreboard objectives add PS.tools.whd.d dummy
+scoreboard objectives add PS.tools.vx.x dummy
+scoreboard objectives add PS.tools.vx.y dummy
+scoreboard objectives add PS.tools.vx.z dummy
+scoreboard objectives add PS.tools.vy.x dummy
+scoreboard objectives add PS.tools.vy.y dummy
+scoreboard objectives add PS.tools.vy.z dummy
+scoreboard objectives add PS.tools.vz.x dummy
+scoreboard objectives add PS.tools.vz.y dummy
+scoreboard objectives add PS.tools.vz.z dummy
 scoreboard objectives add PS.tools.ready dummy
+scoreboard objectives add PS.tools.freemd dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy
