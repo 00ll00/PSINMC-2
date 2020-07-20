@@ -26,6 +26,9 @@ function ps:key/shift/check
 function ps:key/rmb/check
 execute unless score @s PS.key.lmb.on matches 0 run function ps:key/lmb/check
 
+#tools tick event
+function ps:tools/tick
+
 #focus menu
 execute if score @s PS.menu.show matches 1 at @s run function ps:focus/menu/call
 

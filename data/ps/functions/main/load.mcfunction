@@ -63,6 +63,9 @@ scoreboard objectives add PS.tools.vz.y dummy
 scoreboard objectives add PS.tools.vz.z dummy
 scoreboard objectives add PS.tools.ready dummy
 scoreboard objectives add PS.tools.freemd dummy
+scoreboard objectives add PS.tools.p.x dummy
+scoreboard objectives add PS.tools.p.y dummy
+scoreboard objectives add PS.tools.p.z dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy

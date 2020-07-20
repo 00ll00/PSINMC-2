@@ -8,4 +8,4 @@ scoreboard players set $players.actionbar.postype PS.mem 1
 data modify storage ps:players storage.needwrite set value 1b
 
 kill @e[tag=PS.ctrl.box,tag=PS.players.belonging]
-kill @e[tag=PS.tools.box.stroke,tag=PS.players.belonging]
+

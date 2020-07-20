@@ -15,4 +15,6 @@ execute store result storage ps:players storage.data.tools.box.vx[0] int 1 run s
 execute store result storage ps:players storage.data.tools.box.vx[1] int 1 run scoreboard players get @s PS.tools.whd.h
 execute store result storage ps:players storage.data.tools.box.vx[2] int 1 run scoreboard players get @s PS.tools.whd.d
 
+execute store result storage ps:players storage.data.tools.box.hollow byte 1 run scoreboard players get @s PS.tools.hollow
+
 data modify storage ps:players storage.needwrite set value 1b

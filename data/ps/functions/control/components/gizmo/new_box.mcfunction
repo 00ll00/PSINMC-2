@@ -42,3 +42,4 @@ scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.xyz] PS.color.b 7
 team join ps.white @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.xyz]
 
 execute as @e[tag=PS.ctrl_] run function ps:color/getitem/call
+tag @e[tag=PS.ctrl_] remove PS.ctrl_
