@@ -167,11 +167,11 @@
                         "event_exit":{"action":"repl_tool"}
                     },
                     {
-                        "id":"box",
+                        "id":"cube",
                         "type":"item",
-                        "text":{"translate":"ps.tools.box","bold":true,"color":"blue"},
+                        "text":{"translate":"ps.tools.cube","bold":true,"color":"blue"},
                         "offset":[-3,2,-1.5],
-                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.box"}],"color":"aqua"},
+                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.cube"}],"color":"aqua"},
                         "event_exit":{"action":"repl_tool"}
                     },
                     {

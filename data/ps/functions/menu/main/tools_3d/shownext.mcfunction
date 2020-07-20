@@ -3,7 +3,7 @@ execute positioned ^-1.5 ^1 ^ run function ps:menu/main/tools_3d/pencil3d/show
 execute positioned ^-1.5 ^0 ^ run function ps:menu/main/tools_3d/airbrush3d/show
 execute positioned ^-1.5 ^-1 ^ run function ps:menu/main/tools_3d/peel/show
 execute positioned ^-1.5 ^-2 ^ run function ps:menu/main/tools_3d/fill3d/show
-execute positioned ^-3 ^2 ^ run function ps:menu/main/tools_3d/box/show
+execute positioned ^-3 ^2 ^ run function ps:menu/main/tools_3d/cube/show
 execute positioned ^-3 ^1 ^ run function ps:menu/main/tools_3d/sphere/show
 execute positioned ^-3 ^0 ^ run function ps:menu/main/tools_3d/pull/show
 execute positioned ^-3 ^-1 ^ run function ps:menu/main/tools_3d/knife/show

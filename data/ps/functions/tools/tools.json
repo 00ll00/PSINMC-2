@@ -213,10 +213,10 @@
         ]
     },
     {
-        "id":"box",
-        "name":{"translate":"ps.tools.box","color":"blue","italic":false},
+        "id":"cube",
+        "name":{"translate":"ps.tools.cube","color":"blue","italic":false},
         "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","focus_mode"],
-        "description":{"translate":"ps.desc.box"},
+        "description":{"translate":"ps.desc.cube"},
         "tick_event":true,
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_build"}},
@@ -225,12 +225,12 @@
         "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
-            "execute store result score $players.actionbar.showwhd PS.mem run data get storage ps:players storage.data.tools.box.showwhd",
-            "execute store result score $players.actionbar.postype PS.mem run data get storage ps:players storage.data.tools.box.postype",
-            "execute if data storage ps:players storage.data.tools.box{ready:1b} run function ps:tools/box/read"
+            "execute store result score $players.actionbar.showwhd PS.mem run data get storage ps:players storage.data.tools.cube.showwhd",
+            "execute store result score $players.actionbar.postype PS.mem run data get storage ps:players storage.data.tools.cube.postype",
+            "execute if data storage ps:players storage.data.tools.cube{ready:1b} run function ps:tools/cube/read"
         ],
         "deselect":[
-            "execute if score @s PS.tools.ready matches 1 run function ps:tools/box/write"
+            "execute if score @s PS.tools.ready matches 1 run function ps:tools/cube/write"
         ]
     },
     {
