@@ -215,7 +215,7 @@
     {
         "id":"cube",
         "name":{"translate":"ps.tools.cube","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","focus_mode"],
+        "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","tool_rev","focus_mode"],
         "description":{"translate":"ps.desc.cube"},
         "tick_event":true,
         "mouse_events":["dn","hd","up"],

@@ -21,6 +21,8 @@ execute as @s[tag=PS.ctrl.mode.fixed] run function ps:control/btn_focus_fixed/ca
 execute as @s[tag=PS.ctrl.mode.vect] run function ps:control/btn_focus_vect/call
 #   btn_tools_hollow
 execute as @s[tag=PS.ctrl.mode.hollow] run function ps:control/btn_tools_hollow/call
+#   btn_tools_rev
+execute as @s[tag=PS.ctrl.mode.rev] run function ps:control/btn_tools_rev/call
 #   clrpk_c1c2
 execute if score $ctrl.clrpk.clr PS.mem matches 0 as @s[tag=PS.ctrl.clrpk.sr] run scoreboard players operation @a[tag=PS.players.op] PS.color.r1 = $ctrl.clrpk.r PS.mem
 execute if score $ctrl.clrpk.clr PS.mem matches 0 as @s[tag=PS.ctrl.clrpk.sg] run scoreboard players operation @a[tag=PS.players.op] PS.color.g1 = $ctrl.clrpk.g PS.mem
