@@ -218,7 +218,7 @@
         "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","tool_rev","focus_mode"],
         "description":{"translate":"ps.desc.cube"},
         "tick_event":true,
-        "mouse_events":["dn","hd","up"],
+        "mouse_events":["dn","hd","hdws","up"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_build"}},
         "event_f":{"action":"tool_cancel","description":{"translate":"ps.action.tool_cancel"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
