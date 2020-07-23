@@ -7,3 +7,7 @@ execute if data storage ps:players storage.data.tools.cube{state:"hd_x"} run fun
 execute if data storage ps:players storage.data.tools.cube{state:"hd_y"} run function ps:tools/cube/hd/y
 execute if data storage ps:players storage.data.tools.cube{state:"hd_z"} run function ps:tools/cube/hd/z
 execute if data storage ps:players storage.data.tools.cube{state:"hd_o"} run function ps:tools/cube/hd/o
+execute if data storage ps:players storage.data.tools.cube{state:"hd_f_x"} run function ps:tools/cube/hd/f_x
+execute if data storage ps:players storage.data.tools.cube{state:"hd_f_y"} run function ps:tools/cube/hd/f_y
+execute if data storage ps:players storage.data.tools.cube{state:"hd_f_z"} run function ps:tools/cube/hd/f_z
+execute if data storage ps:players storage.data.tools.cube{state:"hd_f_o"} run function ps:tools/cube/hd/f_o

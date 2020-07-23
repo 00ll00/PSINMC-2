@@ -1,6 +1,8 @@
 #as player
 function ps:focus/record1
 
+scoreboard players set @s PS.tools.freemd 0
+
 execute at 0-0110-5053-0-1 run function ps:control/gizmo_cube/new
 data modify storage ps:players storage.data.tools.cube.state set value "hd_xyz"
 
