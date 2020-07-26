@@ -12,4 +12,4 @@ execute if score #tools.cube.s.temp PS.mem matches 0 store success score #tools.
 execute if score #tools.cube.s.temp PS.mem matches 0 store success score #tools.cube.s.temp PS.mem if score #tools.cube.p.z PS.mem matches 0
 execute if score #tools.cube.s.temp PS.mem matches 0 store success score #tools.cube.s.temp PS.mem if score #tools.cube.p.z PS.mem = #tools.cube.whd.d PS.mem
 
-execute if score #tools.cube.s.temp PS.mem matches 1 if score #tools.cube.p.z PS.mem >= #tools.cube.whd.d PS.mem positioned ~ ~ ~-1 unless entity @e[tag=PS.tools.cube.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/cube/stroke_new
+execute if score #tools.cube.s.temp PS.mem matches 1 if score #tools.cube.p.z PS.mem >= #tools.cube.whd.d PS.mem positioned ~ ~ ~-1 unless entity @e[tag=PS.tools.cube.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/cube/stroke_r/new

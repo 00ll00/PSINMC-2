@@ -159,5 +159,5 @@ setblock 29999999 5 3007 minecraft:repeating_command_block{auto:1b,Command:"help
 summon armor_stand ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.focus.marker"],Marker:1b,Invisible:1b}
 #define entity 0-0110-5053-0-2 math marker
 summon armor_stand 0 0 0 {UUID:[I;0,17846355,0,2],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}
-#define entity 0-0110-5053-0-3 color marker
+#define entity 0-0110-5053-0-3 tools marker
 summon armor_stand 29999999 0 3007 {UUID:[I;0,17846355,0,3],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}
