@@ -22,3 +22,6 @@ execute as @e[tag=PS.color.raw] if score @s PS.color.rawid > $color.maxraw PS.sy
 
 #remove tag color.raw.new
 tag @e[tag=PS.color.raw.new] remove PS.color.raw.new
+
+#add tick life
+scoreboard players add @e[tag=PS.main.tick_life] PS.main.life 1

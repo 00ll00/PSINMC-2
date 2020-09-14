@@ -8,6 +8,8 @@ scoreboard objectives add PS.mem dummy
 scoreboard objectives add PS.sys dummy
 scoreboard objectives add PS.const dummy
 
+scoreboard objectives add PS.main.life dummy
+
 scoreboard objectives add PS.focus.max dummy
 scoreboard objectives add PS.focus.fix dummy
 scoreboard objectives add PS.focus.attach dummy

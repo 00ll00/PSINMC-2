@@ -44,6 +44,8 @@ scoreboard players set @s PS.color.g2 7
 scoreboard players set @s PS.color.b2 7
 scoreboard players set @s PS.color.a2 7
 
+scoreboard players set @s PS.key.q 0
+scoreboard players set @s PS.key.sft 0
 scoreboard players set @s PS.key.sft.s 0
 scoreboard players set @s PS.key.sft.cd 0
 scoreboard players set @s PS.key.rmb.s 0

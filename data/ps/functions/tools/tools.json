@@ -154,6 +154,7 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
@@ -168,6 +169,7 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
@@ -182,7 +184,7 @@
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
-        "event_fws":{"action":"color_exc","description":{"translate":"ps.action.color_exc"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
@@ -195,6 +197,7 @@
         "description":{"translate":"ps.desc.peel"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
@@ -207,6 +210,7 @@
         "description":{"translate":"ps.desc.fill3d"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
@@ -255,6 +259,7 @@
         "description":{"translate":"ps.desc.tp"},
         "mouse_events":["dn"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 1",
             "scoreboard players set $players.actionbar.postype PS.mem 1"

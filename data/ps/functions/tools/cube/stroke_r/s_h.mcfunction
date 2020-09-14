@@ -1,4 +1,4 @@
-#as stroke at @s
+#as stroke at @s align xyz
 execute if score #tools.cube.whd.w PS.mem matches 1.. run function ps:tools/cube/stroke_r/s_h_x1
 execute if score #tools.cube.whd.w PS.mem matches ..-1 run function ps:tools/cube/stroke_r/s_h_x2
 execute if score #tools.cube.whd.h PS.mem matches 1.. run function ps:tools/cube/stroke_r/s_h_y1
