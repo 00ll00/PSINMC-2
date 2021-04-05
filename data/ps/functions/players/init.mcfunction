@@ -57,6 +57,6 @@ scoreboard players set @s PS.tps.show 0
 
 #summon datastorage
 execute as @e[tag=PS.players.data] if score @s PS.players.owner = @a[tag=PS.player.init,limit=1] PS.players.id run kill @s
-function ps:players/getstorage
+function ps:players/storage/get
 
 tag @s remove PS.player.init

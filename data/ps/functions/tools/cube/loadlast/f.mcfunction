@@ -1,5 +1,5 @@
 #as player
-
+#TODO complete it
 execute store result score @s PS.tools.vx.x run data get storage ps:players storage.data.tools.cube_last.vx[0]
 execute store result score @s PS.tools.vx.y run data get storage ps:players storage.data.tools.cube_last.vx[1]
 execute store result score @s PS.tools.vx.z run data get storage ps:players storage.data.tools.cube_last.vx[2]

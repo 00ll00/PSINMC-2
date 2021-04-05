@@ -3,4 +3,4 @@ execute if score @s PS.tools.whd.w matches 0 if score @s PS.tools.whd.h matches 
 
 scoreboard players set @s PS.tools.ready 1
 data modify storage ps:players storage.data.tools.cube.state set value "dn_old"
-data modify storage ps:players storage.needwrite set value 1b
+function ps:players/storage/markdirty

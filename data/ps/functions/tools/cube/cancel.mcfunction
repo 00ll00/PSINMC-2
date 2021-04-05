@@ -7,7 +7,7 @@ scoreboard players set $players.actionbar.postype PS.mem 1
 
 scoreboard players set @s PS.tools.ready 0
 
-data modify storage ps:players storage.needwrite set value 1b
+function ps:players/storage/markdirty
 
 kill @e[tag=PS.ctrl.cube,tag=PS.players.belonging]
 kill @e[tag=PS.tools.cube.stroke,tag=PS.players.belonging]

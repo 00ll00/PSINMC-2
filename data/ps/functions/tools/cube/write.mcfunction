@@ -24,4 +24,4 @@ execute store result storage ps:players storage.data.tools.cube.vz[2] int 1 run 
 execute store result storage ps:players storage.data.tools.cube.hollow byte 1 run scoreboard players get @s PS.tools.hollow
 execute store result storage ps:players storage.data.tools.cube.rev byte 1 run scoreboard players get @s PS.tools.rev
 
-data modify storage ps:players storage.needwrite set value 1b
+function ps:players/storage/markdirty

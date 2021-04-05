@@ -1,21 +1,9 @@
 #as stroke at @s align xyz
-#TODO this not work well
-scoreboard players set #cube.temp.reg PS.mem 0
-scoreboard players set #cube.temp.reg.i PS.mem 0
-scoreboard players set #cube.temp.reg.x PS.mem 0
-scoreboard players set #cube.temp.reg.y PS.mem 0
-scoreboard players set #cube.temp.reg.z PS.mem 0
-execute if score #tools.cube.det PS.mem matches 0.. store success score #cube.temp.reg.x PS.mem if score $math.mat.o.1.1 PS.mem matches 0.. if score $math.mat.o.1.1 PS.mem <= #tools.cube.det PS.mem
-execute if score #tools.cube.det PS.mem matches ..-1 store success score #cube.temp.reg.x PS.mem if score $math.mat.o.1.1 PS.mem matches ..0 if score $math.mat.o.1.1 PS.mem >= #tools.cube.det PS.mem
-execute if score #tools.cube.det PS.mem matches 0.. store success score #cube.temp.reg.y PS.mem if score $math.mat.o.2.1 PS.mem matches 0.. if score $math.mat.o.2.1 PS.mem <= #tools.cube.det PS.mem
-execute if score #tools.cube.det PS.mem matches ..-1 store success score #cube.temp.reg.y PS.mem if score $math.mat.o.2.1 PS.mem matches ..0 if score $math.mat.o.2.1 PS.mem >= #tools.cube.det PS.mem
-execute if score #tools.cube.det PS.mem matches 0.. store success score #cube.temp.reg.z PS.mem if score $math.mat.o.3.1 PS.mem matches 0.. if score $math.mat.o.3.1 PS.mem <= #tools.cube.det PS.mem
-execute if score #tools.cube.det PS.mem matches ..-1 store success score #cube.temp.reg.z PS.mem if score $math.mat.o.3.1 PS.mem matches ..0 if score $math.mat.o.3.1 PS.mem >= #tools.cube.det PS.mem
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.1.1 PS.mem matches 0
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.1.1 PS.mem = #tools.cube.det PS.mem
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.2.1 PS.mem matches 0
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.2.1 PS.mem = #tools.cube.det PS.mem
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.3.1 PS.mem matches 0
-execute if score #cube.temp.reg.i PS.mem matches 0 store success score #cube.temp.reg PS.mem if score $math.mat.o.3.1 PS.mem = #tools.cube.det PS.mem
+#output #cube.temp.reg
 
-execute if score #cube.temp.reg.x PS.mem matches 1 if score #cube.temp.reg.y PS.mem matches 1 if score #cube.temp.reg.z PS.mem matches 1 if score #cube.temp.reg.i PS.mem matches 1 run scoreboard players set #cube.temp.reg PS.mem 1
+#compute if the point inside the region
+#TODO can be better
+scoreboard players set #cube.temp.reg PS.mem -1
+
+execute if score $math.mat.o.1.1 PS.mem matches 1.. if score $math.mat.o.1.1 PS.mem <= #tools.cube.whd.w_ PS.mem if score $math.mat.o.2.1 PS.mem matches 1.. if score $math.mat.o.2.1 PS.mem <= #tools.cube.whd.h_ PS.mem if score $math.mat.o.3.1 PS.mem matches 1.. if score $math.mat.o.3.1 PS.mem <= #tools.cube.whd.d_ PS.mem run scoreboard players set #cube.temp.reg PS.mem 0
+execute if score #cube.temp.reg PS.mem matches -1 if score $math.mat.o.1.1 PS.mem matches -999.. if score $math.mat.o.1.1 PS.mem <= #tools.cube.whd.w PS.mem if score $math.mat.o.2.1 PS.mem matches -999.. if score $math.mat.o.2.1 PS.mem <= #tools.cube.whd.h PS.mem if score $math.mat.o.3.1 PS.mem matches -999.. if score $math.mat.o.3.1 PS.mem <= #tools.cube.whd.d PS.mem run scoreboard players set #cube.temp.reg PS.mem 1

@@ -1,5 +1,7 @@
 #as player
 function ps:tools/com/getvy
+function ps:tools/com/getvh
+
 function ps:tools/cube/hd/getf
 
 execute as @e[tag=PS.ctrl.gizmo.y,tag=PS.ctrl.cube,tag=PS.players.belonging] run data modify entity @s Pos set from entity 0-0110-5053-0-1 Pos

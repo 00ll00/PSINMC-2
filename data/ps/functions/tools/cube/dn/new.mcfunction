@@ -11,4 +11,4 @@ data modify storage ps:players storage.data.tools.cube.postype set value 2
 scoreboard players set $players.actionbar.showwhd PS.mem 1
 scoreboard players set $players.actionbar.postype PS.mem 2
 
-data modify storage ps:players storage.needwrite set value 1b
+function ps:players/storage/markdirty
