@@ -18,3 +18,5 @@ execute as @e[tag=PS.ctrl.gizmo,tag=!PS.ctrl.gizmo.xyz,tag=PS.ctrl.cube,tag=PS.p
 execute as @e[tag=PS.ctrl.gizmo.m.x,tag=PS.ctrl.cube,tag=PS.players.belonging] store result entity @s Pos[0] double 0.1 run scoreboard players get #tools.cube.x2 PS.mem
 execute as @e[tag=PS.ctrl.gizmo.m.y,tag=PS.ctrl.cube,tag=PS.players.belonging] store result entity @s Pos[1] double 0.1 run scoreboard players get #tools.cube.y2 PS.mem
 execute as @e[tag=PS.ctrl.gizmo.m.z,tag=PS.ctrl.cube,tag=PS.players.belonging] store result entity @s Pos[2] double 0.1 run scoreboard players get #tools.cube.z2 PS.mem
+
+scoreboard players set @s PS.tools.freemd 0

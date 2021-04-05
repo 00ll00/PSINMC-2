@@ -1,5 +1,5 @@
 #as player
-
+#FIXME size get larger sometimes
 execute as @e[tag=PS.players.belonging,tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.o,limit=1] at @s facing entity @e[tag=PS.players.belonging,tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.x,limit=1] eyes run tp @s ~ ~ ~ ~ ~
 execute as @e[tag=PS.players.belonging,tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.o,limit=1] run function ps:math/vect/unitv/call
 scoreboard players operation $math.mat.a.1.1 PS.mem = $math.vect.unitv.x PS.mem
