@@ -1,7 +1,7 @@
 #as stroke at @s align xyz
 #output #cube.temp.reg
 
-#compute if the point inside the region
+#whether the point inside the region
 #TODO can be better
 scoreboard players set #cube.temp.reg PS.mem -1
 

@@ -1,0 +1,12 @@
+execute positioned ~0 ~1 ~1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x0y1z1
+execute positioned ~0 ~1 ~-1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x0y1z2
+execute positioned ~0 ~-1 ~1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x0y2z1
+execute positioned ~0 ~-1 ~-1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x0y2z2
+execute positioned ~1 ~0 ~1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x1y0z1
+execute positioned ~1 ~0 ~-1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x1y0z2
+execute positioned ~1 ~1 ~0 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x1y1z0
+execute positioned ~1 ~-1 ~0 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x1y2z0
+execute positioned ~-1 ~0 ~1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x2y0z1
+execute positioned ~-1 ~0 ~-1 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x2y0z2
+execute positioned ~-1 ~1 ~0 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x2y1z0
+execute positioned ~-1 ~-1 ~0 align xyz unless entity @e[tag=PS.tools.sphere.stroke,tag=PS.players.belonging,dx=0,dy=0,dz=0] run function ps:tools/sphere/stroke_f/s_x2y2z0

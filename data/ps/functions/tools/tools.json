@@ -240,7 +240,7 @@
     {
         "id":"sphere",
         "name":{"translate":"ps.tools.sphere","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","tool_rev","focus_mode"],
+        "actionbar":["tool_name","focus_pos","tool_r","tool_hollow","tool_rev","focus_mode"],
         "description":{"translate":"ps.desc.sphere"},
         "tick_event":true,
         "mouse_events":["dn","hd","hdws","up"],
@@ -250,7 +250,7 @@
         "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
         "selected":[
             "scoreboard players set @s PS.focus.fix 0",
-            "execute store result score $players.actionbar.showwhd PS.mem run data get storage ps:players storage.data.tools.sphere.showwhd",
+            "execute store result score $players.actionbar.showr PS.mem run data get storage ps:players storage.data.tools.sphere.showr",
             "execute store result score $players.actionbar.postype PS.mem run data get storage ps:players storage.data.tools.sphere.postype",
             "execute if data storage ps:players storage.data.tools.sphere{ready:1b} run function ps:tools/sphere/read"
         ],

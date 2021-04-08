@@ -42,15 +42,15 @@ scoreboard players operation $math.mat.adj.3.1 PS.mem /= $math.mat.det.o PS.mem
 scoreboard players operation $math.mat.adj.3.2 PS.mem /= $math.mat.det.o PS.mem
 scoreboard players operation $math.mat.adj.3.3 PS.mem /= $math.mat.det.o PS.mem
 
-execute store result storage ps:players storage.data.tools.cube_last.adj.1.1 int 1 run scoreboard players get $math.mat.adj.1.1 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.1.2 int 1 run scoreboard players get $math.mat.adj.1.2 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.1.3 int 1 run scoreboard players get $math.mat.adj.1.3 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.2.1 int 1 run scoreboard players get $math.mat.adj.2.1 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.2.2 int 1 run scoreboard players get $math.mat.adj.2.2 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.2.3 int 1 run scoreboard players get $math.mat.adj.2.3 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.3.1 int 1 run scoreboard players get $math.mat.adj.3.1 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.3.2 int 1 run scoreboard players get $math.mat.adj.3.2 PS.mem
-execute store result storage ps:players storage.data.tools.cube_last.adj.3.3 int 1 run scoreboard players get $math.mat.adj.3.3 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.1.1 int 1 run scoreboard players get $math.mat.adj.1.1 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.1.2 int 1 run scoreboard players get $math.mat.adj.1.2 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.1.3 int 1 run scoreboard players get $math.mat.adj.1.3 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.2.1 int 1 run scoreboard players get $math.mat.adj.2.1 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.2.2 int 1 run scoreboard players get $math.mat.adj.2.2 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.2.3 int 1 run scoreboard players get $math.mat.adj.2.3 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.3.1 int 1 run scoreboard players get $math.mat.adj.3.1 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.3.2 int 1 run scoreboard players get $math.mat.adj.3.2 PS.mem
+execute store result storage ps:players storage.data.tools.cube_last.inv.3.3 int 1 run scoreboard players get $math.mat.adj.3.3 PS.mem
 
 scoreboard players operation @s PS.tools.vx.x *= $1000 PS.const
 scoreboard players operation @s PS.tools.vx.y *= $1000 PS.const

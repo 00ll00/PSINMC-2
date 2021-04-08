@@ -54,6 +54,7 @@ scoreboard objectives add PS.tools.shape.9 dummy
 scoreboard objectives add PS.tools.whd.w dummy
 scoreboard objectives add PS.tools.whd.h dummy
 scoreboard objectives add PS.tools.whd.d dummy
+scoreboard objectives add PS.tools.r dummy
 scoreboard objectives add PS.tools.vx.x dummy
 scoreboard objectives add PS.tools.vx.y dummy
 scoreboard objectives add PS.tools.vx.z dummy

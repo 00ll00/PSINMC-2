@@ -1,4 +1,5 @@
 #as player
+#input: @s PS.focus.r.x2/y2/z2
 #output: $tools.r
 scoreboard players operation #tools.getr.temp PS.mem = @s PS.focus.r.x2
 scoreboard players operation #tools.getr.temp PS.mem -= @s PS.focus.r.x1

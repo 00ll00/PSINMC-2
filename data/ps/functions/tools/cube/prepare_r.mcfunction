@@ -6,7 +6,3 @@ scoreboard players set @e[tag=PS.tools.cube.stroke_] PS.tools.p.x 0
 scoreboard players set @e[tag=PS.tools.cube.stroke_] PS.tools.p.y 0
 scoreboard players set @e[tag=PS.tools.cube.stroke_] PS.tools.p.z 0
 tag @e[tag=PS.tools.cube.stroke_] remove PS.tools.cube.stroke_
-
-execute store success storage ps:players storage.data.tools.cube_last.revx byte 1 if score @s PS.focus.r.x2 < @s PS.focus.r.x1
-execute store success storage ps:players storage.data.tools.cube_last.revy byte 1 if score @s PS.focus.r.y2 < @s PS.focus.r.y1
-execute store success storage ps:players storage.data.tools.cube_last.revz byte 1 if score @s PS.focus.r.z2 < @s PS.focus.r.z1

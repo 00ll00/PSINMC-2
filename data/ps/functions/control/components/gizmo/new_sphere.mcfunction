@@ -3,10 +3,10 @@ summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.o
 summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.x","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
 summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.y","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
 summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.z","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
-summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.x-","PS.ctrl.gizmo.m.r-"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
-summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.y-","PS.ctrl.gizmo.m.r-"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
-summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.z-","PS.ctrl.gizmo.m.r-"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
-summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.s","PS.ctrl.gizmo.m.s"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
+summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.x-","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
+summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.y-","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
+summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.z-","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
+summon armor_stand ~ ~ ~ {Tags:["PS.ctrl.new","PS.ctrl","PS.ctrl_","PS.players.owned","PS.players.belonging","PS.focus.target","PS.ctrl.gizmo","PS.ctrl.gizmo.sphere","PS.ctrl.gizmo.s","PS.ctrl.gizmo.m.r"],Marker:1b,Invisible:1b,Pose:{RightArm:[-15f,225f,0f]},Small:1b,Glowing:1b}
 
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.o] PS.color.r 7
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.o] PS.color.g 7
@@ -24,17 +24,17 @@ scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z] PS.color.r 0
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z] PS.color.g 0
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z] PS.color.b 7
 team join ps.blue @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z]
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.r 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.g 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.b 3
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.r 7
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.g 0
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-] PS.color.b 0
 team join ps.gray @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.x-]
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.r 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.g 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.b 3
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.r 0
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.g 7
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-] PS.color.b 0
 team join ps.gray @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.y-]
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.r 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.g 3
-scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.b 3
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.r 0
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.g 0
+scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-] PS.color.b 7
 team join ps.gray @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.z-]
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.s] PS.color.r 7
 scoreboard players set @e[tag=PS.ctrl_,tag=PS.ctrl.gizmo.s] PS.color.g 7

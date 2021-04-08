@@ -1,14 +1,14 @@
 #as player
 
-execute store result score @s PS.tools.vx.x run data get storage ps:players storage.data.tools.cube_last.vx[0]
-execute store result score @s PS.tools.vx.y run data get storage ps:players storage.data.tools.cube_last.vx[1]
-execute store result score @s PS.tools.vx.z run data get storage ps:players storage.data.tools.cube_last.vx[2]
-execute store result score @s PS.tools.vy.x run data get storage ps:players storage.data.tools.cube_last.vy[0]
-execute store result score @s PS.tools.vy.y run data get storage ps:players storage.data.tools.cube_last.vy[1]
-execute store result score @s PS.tools.vy.z run data get storage ps:players storage.data.tools.cube_last.vy[2]
-execute store result score @s PS.tools.vz.x run data get storage ps:players storage.data.tools.cube_last.vz[0]
-execute store result score @s PS.tools.vz.y run data get storage ps:players storage.data.tools.cube_last.vz[1]
-execute store result score @s PS.tools.vz.z run data get storage ps:players storage.data.tools.cube_last.vz[2]
+execute store result score @s PS.tools.vx.x run data get storage ps:players storage.data.tools.cube.vx[0]
+execute store result score @s PS.tools.vx.y run data get storage ps:players storage.data.tools.cube.vx[1]
+execute store result score @s PS.tools.vx.z run data get storage ps:players storage.data.tools.cube.vx[2]
+execute store result score @s PS.tools.vy.x run data get storage ps:players storage.data.tools.cube.vy[0]
+execute store result score @s PS.tools.vy.y run data get storage ps:players storage.data.tools.cube.vy[1]
+execute store result score @s PS.tools.vy.z run data get storage ps:players storage.data.tools.cube.vy[2]
+execute store result score @s PS.tools.vz.x run data get storage ps:players storage.data.tools.cube.vz[0]
+execute store result score @s PS.tools.vz.y run data get storage ps:players storage.data.tools.cube.vz[1]
+execute store result score @s PS.tools.vz.z run data get storage ps:players storage.data.tools.cube.vz[2]
 
 execute store result score #tools.cube.y.x PS.mem store result score #tools.cube.z.x PS.mem run scoreboard players operation #tools.cube.x.x PS.mem = @s PS.focus.r.x1
 execute store result score #tools.cube.y.y PS.mem store result score #tools.cube.z.y PS.mem run scoreboard players operation #tools.cube.x.y PS.mem = @s PS.focus.r.y1
@@ -75,5 +75,3 @@ team join ps.dark_gray @e[tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.xy,tag=PS.players.b
 team join ps.dark_gray @e[tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.xz,tag=PS.players.belonging]
 team join ps.dark_gray @e[tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.yz,tag=PS.players.belonging]
 team join ps.dark_gray @e[tag=PS.ctrl.cube,tag=PS.ctrl.gizmo.xyz,tag=PS.players.belonging]
-
-scoreboard players set @s PS.tools.freemd 1

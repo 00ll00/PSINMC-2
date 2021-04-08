@@ -12,4 +12,5 @@ execute if score #tools.cube.dn.temp PS.mem matches 0 if score @s PS.tools.freem
 execute if score #tools.cube.dn.temp PS.mem matches 0 if score @s PS.tools.freemd matches 1 store success score #tools.cube.dn.temp PS.mem if entity @e[tag=PS.ctrl.gizmo.y,dx=0,dy=0,dz=0,tag=PS.players.belonging] run data modify storage ps:players storage.data.tools.cube.state set value "hd_f_y"
 execute if score #tools.cube.dn.temp PS.mem matches 0 if score @s PS.tools.freemd matches 1 store success score #tools.cube.dn.temp PS.mem if entity @e[tag=PS.ctrl.gizmo.z,dx=0,dy=0,dz=0,tag=PS.players.belonging] run data modify storage ps:players storage.data.tools.cube.state set value "hd_f_z"
 execute if score #tools.cube.dn.temp PS.mem matches 0 if score @s PS.tools.freemd matches 1 store success score #tools.cube.dn.temp PS.mem if entity @e[tag=PS.ctrl.gizmo.o,dx=0,dy=0,dz=0,tag=PS.players.belonging] run data modify storage ps:players storage.data.tools.cube.state set value "hd_f_o"
+execute if score #tools.cube.dn.temp PS.mem matches 1 run scoreboard players set @s PS.tools.ready 0
 execute if score #tools.cube.dn.temp PS.mem matches 1 run function ps:players/storage/markdirty

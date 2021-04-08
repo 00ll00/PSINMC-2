@@ -5,4 +5,3 @@ scoreboard players operation @e[tag=PS.tools.cube.stroke_] PS.tools.p.x = #tools
 scoreboard players operation @e[tag=PS.tools.cube.stroke_] PS.tools.p.y = #tools.cube.p.y PS.mem
 scoreboard players operation @e[tag=PS.tools.cube.stroke_] PS.tools.p.z = #tools.cube.p.z PS.mem
 tag @e[tag=PS.tools.cube.stroke_] remove PS.tools.cube.stroke_
-scoreboard players add #tools.cube.stroke.new PS.mem 1
