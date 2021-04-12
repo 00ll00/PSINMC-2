@@ -7,6 +7,8 @@ execute if data storage ps:players actionbar{one:'tool_hollow'} run function ps:
 execute if data storage ps:players actionbar{one:'tool_rev'} run function ps:players/actionbar/tool_rev
 execute if data storage ps:players actionbar{one:'tool_whd'} if score $players.actionbar.showwhd PS.mem matches 1 run function ps:players/actionbar/tool_whd
 execute if data storage ps:players actionbar{one:'tool_r'} if score $players.actionbar.showr PS.mem matches 1 run function ps:players/actionbar/tool_r
+execute if data storage ps:players actionbar{one:'tool_wkpath'} run function ps:players/actionbar/tool_wkpath
+execute if data storage ps:players actionbar{one:'tool_wka'} run function ps:players/actionbar/tool_wka
 execute if data storage ps:players actionbar{one:'color_a'} run function ps:players/actionbar/color_a
 execute if data storage ps:players actionbar{one:'color_c1'} run function ps:players/actionbar/color_c1
 execute if data storage ps:players actionbar{one:'color_c1a'} run function ps:players/actionbar/color_c1a

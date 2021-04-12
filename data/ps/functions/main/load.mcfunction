@@ -69,6 +69,21 @@ scoreboard objectives add PS.tools.freemd dummy
 scoreboard objectives add PS.tools.p.x dummy
 scoreboard objectives add PS.tools.p.y dummy
 scoreboard objectives add PS.tools.p.z dummy
+scoreboard objectives add PS.tools.wkpath dummy
+scoreboard objectives add PS.tools.wka dummy
+
+scoreboard objectives add PS.path.id dummy
+scoreboard objectives add PS.path.a.id dummy
+scoreboard objectives add PS.path.p.id dummy
+scoreboard objectives add PS.path.p.x dummy
+scoreboard objectives add PS.path.p.y dummy
+scoreboard objectives add PS.path.p.z dummy
+scoreboard objectives add PS.path.h1.x dummy
+scoreboard objectives add PS.path.h1.y dummy
+scoreboard objectives add PS.path.h1.z dummy
+scoreboard objectives add PS.path.h2.x dummy
+scoreboard objectives add PS.path.h2.y dummy
+scoreboard objectives add PS.path.h2.z dummy
 
 scoreboard objectives add PS.color.r dummy
 scoreboard objectives add PS.color.g dummy
@@ -114,6 +129,7 @@ scoreboard players set $focus.block.const2 PS.const 1664100
 scoreboard players set $-1 PS.const -1
 scoreboard players set $2 PS.const 2
 scoreboard players set $4 PS.const 4
+scoreboard players set $5 PS.const 5
 scoreboard players set $8 PS.const 8
 scoreboard players set $10 PS.const 10
 scoreboard players set $16 PS.const 16

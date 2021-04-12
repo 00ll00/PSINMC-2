@@ -20,6 +20,6 @@ scoreboard players operation $math.mat.o.3.1 PS.mem *= $math.mat.o.3.1 PS.mem
 scoreboard players operation #sphere.temp.dist PS.mem = $math.mat.o.1.1 PS.mem
 scoreboard players operation #sphere.temp.dist PS.mem += $math.mat.o.2.1 PS.mem
 scoreboard players operation #sphere.temp.dist PS.mem += $math.mat.o.3.1 PS.mem
-
+#TODO use a more accurate method
 scoreboard players set #sphere.temp.reg PS.mem 0
 execute if score #sphere.temp.dist PS.mem >= #tools.sphere.inner PS.mem if score #sphere.temp.dist PS.mem < #tools.sphere.outter PS.mem run scoreboard players set #sphere.temp.reg PS.mem 1

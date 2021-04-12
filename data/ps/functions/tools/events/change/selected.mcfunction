@@ -15,6 +15,6 @@ execute if score @s PS.tools.type matches 14 run function ps:tools/peel/slct
 execute if score @s PS.tools.type matches 15 run function ps:tools/fill3d/slct
 execute if score @s PS.tools.type matches 16 run function ps:tools/cube/slct
 execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/slct
-execute if score @s PS.tools.type matches 18 run function ps:tools/cstm/slct
-execute if score @s PS.tools.type matches 19 run function ps:tools/tp/slct
-execute if score @s PS.tools.type matches 20 run function ps:tools/dbg_color/slct
+execute if score @s PS.tools.type matches 19 run function ps:tools/cstm/slct
+execute if score @s PS.tools.type matches 20 run function ps:tools/tp/slct
+execute if score @s PS.tools.type matches 21 run function ps:tools/dbg_color/slct

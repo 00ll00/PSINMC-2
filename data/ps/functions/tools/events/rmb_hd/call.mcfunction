@@ -15,4 +15,5 @@ execute if score @s PS.tools.type matches 14 run function ps:tools/peel/hd
 execute if score @s PS.tools.type matches 15 run function ps:tools/fill3d/hd
 execute if score @s PS.tools.type matches 16 run function ps:tools/cube/hd
 execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/hd
-execute if score @s PS.tools.type matches 18 run function ps:tools/cstm/hd
+execute if score @s PS.tools.type matches 18 run function ps:tools/pen/hd
+execute if score @s PS.tools.type matches 19 run function ps:tools/cstm/hd

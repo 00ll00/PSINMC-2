@@ -2,6 +2,7 @@
 #get tags
 tag @s add PS.players.op
 execute as @e[tag=PS.players.owned] if score @s PS.players.owner = @a[tag=PS.players.op,limit=1] PS.players.id run tag @s add PS.players.belonging
+execute as @e[tag=PS.path] if score @s PS.path.id = @a[tag=PS.players.op,limit=1] PS.tools.wkpath run tag @s add PS.path.working
 
 #read data
 function ps:players/read
@@ -41,4 +42,5 @@ execute if data storage ps:players storage{needwrite:1b} run function ps:players
 #return tags
 tag @s remove PS.players.op
 tag @e[tag=PS.players.belonging] remove PS.players.belonging
+tag @e[tag=PS.path.working] remove PS.path.working
 tag @e[tag=PS.ctrl.newed] remove PS.ctrl.newed
