@@ -34,6 +34,7 @@ scoreboard objectives add PS.tools.typeold dummy
 scoreboard objectives add PS.tools.ftype dummy
 scoreboard objectives add PS.tools.vect dummy
 scoreboard objectives add PS.tools.vecto dummy
+scoreboard objectives add PS.tools.pathing dummy
 scoreboard objectives add PS.tools.fixed dummy
 scoreboard objectives add PS.tools.fixedo dummy
 scoreboard objectives add PS.tools.hollow dummy
@@ -71,6 +72,7 @@ scoreboard objectives add PS.tools.p.y dummy
 scoreboard objectives add PS.tools.p.z dummy
 scoreboard objectives add PS.tools.wkpath dummy
 scoreboard objectives add PS.tools.wka dummy
+scoreboard objectives add PS.tools.wkp dummy
 
 scoreboard objectives add PS.path.id dummy
 scoreboard objectives add PS.path.a.id dummy

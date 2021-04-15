@@ -1,4 +1,8 @@
 #as player
+#output:
+#   @s PS.tools.ftype: 0: none 1: block 2: blocka 3:vector
+#   @s PS.tools.vecto
+#   @s PS.tools.fixedo
 scoreboard players set @s PS.tools.ftype 0
 scoreboard players set @s PS.tools.vecto -1
 execute if data entity @s SelectedItem.tag.PS_tool_modevect store result score @s PS.tools.vecto run data get entity @s SelectedItem.tag.PS_tool_modevect
