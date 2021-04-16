@@ -16,6 +16,7 @@ execute if score @s PS.tools.type matches 15 run function ps:tools/fill3d/up
 execute if score @s PS.tools.type matches 16 run function ps:tools/cube/up
 execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/up
 execute if score @s PS.tools.type matches 18 run function ps:tools/pen/up
-execute if score @s PS.tools.type matches 19 run function ps:tools/cstm/up
-execute if score @s PS.tools.type matches 20 run function ps:tools/tp/up
-execute if score @s PS.tools.type matches 21 run function ps:tools/dbg_color/up
+execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/up
+execute if score @s PS.tools.type matches 20 run function ps:tools/cstm/up
+execute if score @s PS.tools.type matches 21 run function ps:tools/tp/up
+execute if score @s PS.tools.type matches 22 run function ps:tools/dbg_color/up

@@ -35,6 +35,9 @@ scoreboard players set @s PS.tools.shape.7 3
 scoreboard players set @s PS.tools.shape.8 2
 scoreboard players set @s PS.tools.shape.9 1
 scoreboard players set @s PS.tools.wkpath 0
+scoreboard players set @s PS.tools.wka 0
+scoreboard players set @s PS.tools.wkp 0
+scoreboard players set @s PS.tools.pathing 0
 
 scoreboard players set @s PS.color.r1 0
 scoreboard players set @s PS.color.g1 0

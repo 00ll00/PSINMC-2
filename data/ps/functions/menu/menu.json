@@ -216,11 +216,11 @@
                         "event_exit":{"action":"repl_tool"}
                     },
                     {
-                        "id":"convertap",
+                        "id":"anchor",
                         "type":"item",
-                        "text":{"translate":"ps.tools.convertap","bold":true,"color":"green"},
+                        "text":{"translate":"ps.tools.anchor","bold":true,"color":"green"},
                         "offset":[-1.5,1,-0.5],
-                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.convertap"}],"color":"aqua"},
+                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.anchor"}],"color":"aqua"},
                         "event_exit":{"action":"repl_tool"}
                     },
                     {

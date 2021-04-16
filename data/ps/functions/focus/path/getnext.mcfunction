@@ -14,8 +14,8 @@ scoreboard players operation $focus.oy PS.mem = @s PS.focus.y
 scoreboard players operation $focus.oz PS.mem = @s PS.focus.z
 scoreboard players set $focus.g PS.mem 0
 scoreboard players add @s PS.tools.wkp 1
-execute store success score $focus.g PS.mem as @e[tag=PS.path.working,tag=PS.path.p] if score @s PS.path.a.id = @a[tag=PS.players.op,limit=1] PS.tools.wka if score @s PS.path.p.id = @a[tag=PS.players.op,limit=1] PS.tools.wkp run function ps:path/focus/setfocus
-execute if score $focus.g PS.mem matches 0 run function ps:path/focus/getnext_
+execute store success score $focus.g PS.mem as @e[tag=PS.path.working,tag=PS.path.p] if score @s PS.path.a.id = @a[tag=PS.players.op,limit=1] PS.tools.wka if score @s PS.path.p.id = @a[tag=PS.players.op,limit=1] PS.tools.wkp run function ps:focus/path/setfocus
+execute if score $focus.g PS.mem matches 0 run function ps:focus/path/getnext_
 
 #focus old
 kill @e[tag=PS.focus.old,tag=PS.players.belonging]

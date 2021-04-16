@@ -5,6 +5,7 @@
 #   @s PS.tools.wka
 #   @s PS.tools.wkp
 
+execute if score $focus.g PS.mem matches 1 as @a[tag=PS.op,tag=!PS.players.op] if score @s PS.tools.wkpath = @e[tag=PS.vector.focused,limit=1] PS.path.id run scoreboard players set $focus.g PS.mem 0
 scoreboard players operation @s PS.tools.pathing = $focus.g PS.mem
 execute if score $focus.g PS.mem matches 1 run scoreboard players operation @s PS.tools.wkpath = @e[tag=PS.vector.focused,limit=1] PS.path.id
 execute if score $focus.g PS.mem matches 1 run scoreboard players operation @s PS.tools.wka = @e[tag=PS.vector.focused,limit=1] PS.path.a.id

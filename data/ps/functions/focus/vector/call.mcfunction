@@ -13,11 +13,10 @@ tag @e[tag=PS.vector.focused] remove PS.vector.focused
 
 scoreboard players set $focus.g PS.mem 1
 scoreboard players set #focus.dist PS.mem 0
+scoreboard players operation #focus.dist.max PS.mem = @s PS.focus.max
+scoreboard players operation #focus.dist.max PS.mem += #focus.dist.max PS.mem
 execute anchored eyes positioned ^ ^ ^ run function ps:focus/vector/recu
-execute if score $focus.g PS.mem matches 1 as @e[tag=PS.vector.focused] run function ps:path/focus/setfocus
-
-#set cursor
-execute if score $focus.g PS.mem matches 1 at 0-0110-5053-0-1 align xyz run summon falling_block ~.5 ~ ~.5 {Glowing:1b,BlockState:{Name:"minecraft:glass"},NoGravity:1b}
+execute if score $focus.g PS.mem matches 1 as @e[tag=PS.vector.focused] run function ps:focus/path/setfocus
 
 #focus old
 kill @e[tag=PS.focus.old,tag=PS.players.belonging]

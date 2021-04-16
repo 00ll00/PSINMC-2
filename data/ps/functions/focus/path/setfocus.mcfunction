@@ -15,3 +15,6 @@ scoreboard players operation $focus.z PS.mem = @s PS.path.p.z
 scoreboard players set $focus.g PS.mem 1
 
 tp 0-0110-5053-0-1 @s
+
+#set cursor
+execute at 0-0110-5053-0-1 align xyz run summon falling_block ~.5 ~ ~.5 {Glowing:1b,BlockState:{Name:"minecraft:glass"},NoGravity:1b}
