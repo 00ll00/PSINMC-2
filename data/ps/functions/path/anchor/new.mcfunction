@@ -14,5 +14,6 @@ summon armor_stand ~ ~ ~ {Tags:["PS.path.a_","PS.path","PS.path.working","PS.foc
 execute as @e[tag=PS.path.a_] run function ps:path/anchor/inita
 
 function ps:path/refresha
+execute as @e[tag=PS.path.a_] run function ps:path/anchor/gen/h1h2
 
 tag @e[tag=PS.path.a_] remove PS.path.a_

@@ -24,6 +24,7 @@ function ps:tools/ftype
 execute as @s[scores={PS.tools.ftype=1}] run function ps:focus/block/call
 execute as @s[scores={PS.tools.ftype=2}] run function ps:focus/blocka/call
 execute as @s[scores={PS.tools.ftype=3,PS.key.rmb.s=0}] run function ps:focus/vector/call
+execute as @s[scores={PS.tools.ftype=4}] run function ps:focus/vector/call
 
 #check key events (menu gen there, normal controls gen after this)
 function ps:key/shift/check

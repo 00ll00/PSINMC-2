@@ -17,6 +17,7 @@ execute if score @s PS.tools.type matches 16 run function ps:tools/cube/hdws
 execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/hdws
 execute if score @s PS.tools.type matches 18 run function ps:tools/pen/hd
 execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/hdws
-execute if score @s PS.tools.type matches 20 run function ps:tools/cstm/hd
-execute if score @s PS.tools.type matches 21 run function ps:tools/tp/hd
-execute if score @s PS.tools.type matches 22 run function ps:tools/dbg_color/hd
+execute if score @s PS.tools.type matches 20 run function ps:tools/anchoradj/hdws
+execute if score @s PS.tools.type matches 21 run function ps:tools/cstm/hd
+execute if score @s PS.tools.type matches 22 run function ps:tools/tp/hd
+execute if score @s PS.tools.type matches 23 run function ps:tools/dbg_color/hd

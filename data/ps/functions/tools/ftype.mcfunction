@@ -1,6 +1,6 @@
 #as player
 #output:
-#   @s PS.tools.ftype: 0: none 1: block 2: blocka 3:vector
+#   @s PS.tools.ftype: 0: none 1: block 2: blocka 3:vector 4:v-marker
 #   @s PS.tools.vecto
 #   @s PS.tools.fixedo
 scoreboard players set @s PS.tools.ftype 0
@@ -13,3 +13,4 @@ execute if score @s PS.tools.fixedo matches -1 run scoreboard players operation 
 execute as @s[scores={PS.menu.show=0,PS.tools.type=1..,PS.tools.vecto=0,PS.tools.fixedo=0}] run scoreboard players set @s PS.tools.ftype 1
 execute as @s[scores={PS.menu.show=0,PS.tools.type=1..,PS.tools.vecto=0,PS.tools.fixedo=1}] run scoreboard players set @s PS.tools.ftype 2
 execute as @s[scores={PS.menu.show=0,PS.tools.type=1..,PS.tools.vecto=1}] run scoreboard players set @s PS.tools.ftype 3
+execute as @s[scores={PS.menu.show=0,PS.tools.type=1..,PS.tools.vecto=2}] run scoreboard players set @s PS.tools.ftype 4

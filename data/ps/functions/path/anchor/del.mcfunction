@@ -1,4 +1,4 @@
-#as anchor
+#as anchor with tag path.working
 
 tag @s remove PS.path.working
 kill @e[tag=PS.path.h,tag=PS.path.working]

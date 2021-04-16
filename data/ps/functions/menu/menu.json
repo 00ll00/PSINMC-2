@@ -224,10 +224,18 @@
                         "event_exit":{"action":"repl_tool"}
                     },
                     {
+                        "id":"anchoradj",
+                        "type":"item",
+                        "text":{"translate":"ps.tools.anchoradj","bold":true,"color":"green"},
+                        "offset":[-1.5,0,-0.5],
+                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.anchoradj"}],"color":"aqua"},
+                        "event_exit":{"action":"repl_tool"}
+                    },
+                    {
                         "id":"marker",
                         "type":"item",
                         "text":{"translate":"ps.tools.marker","bold":true,"color":"green"},
-                        "offset":[-1.5,0,-0.5],
+                        "offset":[-1.5,-1,-0.5],
                         "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.marker"}],"color":"aqua"},
                         "event_exit":{"action":"repl_tool"}
                     },
@@ -235,7 +243,7 @@
                         "id":"ruler",
                         "type":"item",
                         "text":{"translate":"ps.tools.ruler","bold":true,"color":"green"},
-                        "offset":[-1.5,-1,-0.5],
+                        "offset":[-1.5,-2,-0.5],
                         "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.ruler"}],"color":"aqua"},
                         "event_exit":{"action":"repl_tool"}
                     }

@@ -2,7 +2,7 @@
     {
         "id":"eraser",
         "name":{"translate":"ps.tools.eraser","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.eraser"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -17,7 +17,7 @@
     {
         "id":"pencil",
         "name":{"translate":"ps.tools.pencil","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.pencil"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -32,7 +32,7 @@
     {
         "id":"brush",
         "name":{"translate":"ps.tools.brush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.brush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -47,7 +47,7 @@
     {
         "id":"airbrush",
         "name":{"translate":"ps.tools.airbrush","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.airbrush"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -62,7 +62,7 @@
     {
         "id":"fill",
         "name":{"translate":"ps.tools.fill","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","color_c1","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.fill"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -76,7 +76,7 @@
     {
         "id":"eyedropper",
         "name":{"translate":"ps.tools.eyedropper","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.eyedropper"},
         "mouse_events":["dn","hd","up","upws"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -90,7 +90,7 @@
     {
         "id":"burn",
         "name":{"translate":"ps.tools.burn","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.burn"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -105,7 +105,7 @@
     {
         "id":"dodge",
         "name":{"translate":"ps.tools.dodge","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.dodge"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -120,7 +120,7 @@
     {
         "id":"blur",
         "name":{"translate":"ps.tools.blur","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.blur"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -135,7 +135,7 @@
     {
         "id":"checked",
         "name":{"translate":"ps.tools.checked","color":"gold","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.checked"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -150,7 +150,7 @@
     {
         "id":"eraser3d",
         "name":{"translate":"ps.tools.eraser3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.eraser3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -165,7 +165,7 @@
     {
         "id":"pencil3d",
         "name":{"translate":"ps.tools.pencil3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.pencil3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -180,7 +180,7 @@
     {
         "id":"airbrush3d",
         "name":{"translate":"ps.tools.airbrush3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.airbrush3d"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -195,7 +195,7 @@
     {
         "id":"peel",
         "name":{"translate":"ps.tools.peel","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.peel"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -209,7 +209,7 @@
     {
         "id":"fill3d",
         "name":{"translate":"ps.tools.fill3d","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.fill3d"},
         "mouse_events":["dn","hd","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -223,7 +223,7 @@
     {
         "id":"cube",
         "name":{"translate":"ps.tools.cube","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_whd","tool_hollow","tool_rev","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.cube"},
         "tick_event":true,
         "mouse_events":["dn","hd","hdws","up"],
@@ -245,7 +245,7 @@
     {
         "id":"sphere",
         "name":{"translate":"ps.tools.sphere","color":"blue","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_r","tool_hollow","tool_rev","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.sphere"},
         "tick_event":true,
         "mouse_events":["dn","hd","hdws","up"],
@@ -267,7 +267,7 @@
     {
         "id":"pen",
         "name":{"translate":"ps.tools.pen","color":"green","italic":false},
-        "actionbar":["tool_name","tool_wkpath","tool_wka","focus_pos","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.pen"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_finish_edit"}},
@@ -285,7 +285,7 @@
     {
         "id":"anchor",
         "name":{"translate":"ps.tools.anchor","color":"green","italic":false},
-        "actionbar":["tool_name","tool_wkpath","tool_wka","focus_pos","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.anchor"},
         "mouse_events":["dn","hd","hdws","up"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_finish_edit"}},
@@ -301,9 +301,26 @@
         ]
     },
     {
+        "id":"anchoradj",
+        "name":{"translate":"ps.tools.anchoradj","color":"green","italic":false},
+        "actionbar":1,
+        "description":{"translate":"ps.desc.anchoradj"},
+        "mouse_events":["dn","hd","hdws","up"],
+        "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_finish_edit"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
+        "modevect":2,
+        "selected":[
+            "execute if score @s PS.tools.wkpath matches 0.. run function ps:tools/anchoradj/build"
+        ],
+        "deselect":[
+            "execute if score @s PS.tools.wkpath matches 0.. run function ps:tools/anchoradj/build"
+        ]
+    },
+    {
         "id":"cstm",
         "name":{"translate":"ps.tools.cstm","color":"red","italic":false},
-        "actionbar":["tool_name","focus_pos","tool_size","color_c1c2a","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.cstm"},
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
@@ -318,7 +335,7 @@
     {
         "id":"tp",
         "name":{"translate":"ps.tools.tp","color":"light_purple","italic":false},
-        "actionbar":["tool_name","focus_pos","focus_mode"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.tp"},
         "mouse_events":["dn"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
@@ -332,7 +349,7 @@
     {
         "id":"dbg_color",
         "name":{"translate":"ps.tools.dbg_color","color":"red","italic":true},
-        "actionbar":["tool_name"],
+        "actionbar":1,
         "description":{"translate":"ps.desc.dbg_color"},
         "mouse_events":["dn","up"],
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
