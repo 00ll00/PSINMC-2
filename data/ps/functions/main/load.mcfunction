@@ -178,9 +178,21 @@ bossbar set ps:tps max 20
 setblock 29999999 5 3007 minecraft:repeating_command_block{auto:1b,Command:"help me"}
 
 #markers
-#define entity 0-0110-5053-0-1 focus marker
-summon armor_stand ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.focus.marker"],Marker:1b,Invisible:1b}
-#define entity 0-0110-5053-0-2 math marker
-summon armor_stand 0 0 0 {UUID:[I;0,17846355,0,2],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}
-#define entity 0-0110-5053-0-3 tools marker
-summon armor_stand 29999999 0 3007 {UUID:[I;0,17846355,0,3],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}
+
+#>  Focus Marker.
+#   @public
+#declare entity 0-0110-5053-0-1
+#alias entity focus_marker 0-0110-5053-0-1
+summon marker ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.focus.marker"],Marker:1b,Invisible:1b}
+
+#>  Math Marker.
+#   @public
+#declare entity 0-0110-5053-0-2
+#alias entity math_marker 0-0110-5053-0-2
+summon marker 0.0 0.0 0.0 {UUID:[I;0,17846355,0,2],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}
+
+#>  Tools Marker.
+#   @public
+#declare entity 0-0110-5053-0-3
+#alias entity tools_marker 0-0110-5053-0-3
+summon marker 29999999 0 3007 {UUID:[I;0,17846355,0,3],Tags:["PS.math.marker"],Marker:1b,Invisible:1b}

@@ -5,4 +5,4 @@ execute store success score $color.set PS.mem if score @s PS.color.b matches 3 r
 execute store success score $color.set PS.mem if score @s PS.color.b matches 4 run setblock ~ ~ ~ minecraft:light_blue_terracotta
 execute store success score $color.set PS.mem if score @s PS.color.b matches 5 run setblock ~ ~ ~ minecraft:purple_wool
 execute store success score $color.set PS.mem if score @s PS.color.b matches 6 run setblock ~ ~ ~ minecraft:purple_wool
-execute store success score $color.set PS.mem if score @s PS.color.b matches 7 run setblock ~ ~ ~ minecraft:purple_wool
+execute store success score $color.set PS.mem if score @s PS.color.b matches 7 run setblock ~ ~ ~ minecraft:amethyst_block

@@ -15,6 +15,6 @@ execute if score $ctrl.clrpk.clr PS.mem matches 0 run data modify entity @e[tag=
 execute if score $ctrl.clrpk.clr PS.mem matches 1 run data modify entity @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a2,limit=1] Glowing set value 1b
 execute as @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a] run function ps:color/getitem/call
 execute as @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a] run data modify entity @s ArmorItems[3] set from entity @s HandItems[0]
-replaceitem entity @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a] weapon.mainhand air
+item entity @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.a] weapon.mainhand replace air
 
 execute as @e[tag=PS.ctrl.active,tag=PS.ctrl.clrpk.sa] if score @s PS.color.a = $ctrl.clrpk.a PS.mem run data modify entity @s Glowing set value 1b

@@ -33,6 +33,8 @@ execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:gray_wool 
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:cyan_terracotta run function ps:color/getcolor/blocks/cyan_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:light_blue_terracotta run function ps:color/getcolor/blocks/light_blue_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:lime_terracotta run function ps:color/getcolor/blocks/lime_terracotta
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:waxed_oxidized_cut_copper run function ps:color/getcolor/blocks/waxed_oxidized_cut_copper
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:waxed_oxidized_copper run function ps:color/getcolor/blocks/waxed_oxidized_copper
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:prismarine_bricks run function ps:color/getcolor/blocks/prismarine_bricks
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:lime_wool run function ps:color/getcolor/blocks/lime_wool
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:diamond_block run function ps:color/getcolor/blocks/diamond_block
@@ -42,8 +44,10 @@ execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:crimson_pl
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:brown_concrete run function ps:color/getcolor/blocks/brown_concrete
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:purple_terracotta run function ps:color/getcolor/blocks/purple_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:stripped_dark_oak_wood run function ps:color/getcolor/blocks/stripped_dark_oak_wood
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:amethyst_block run function ps:color/getcolor/blocks/amethyst_block
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:light_gray_concrete run function ps:color/getcolor/blocks/light_gray_concrete
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:blue_ice run function ps:color/getcolor/blocks/blue_ice
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:waxed_weathered_copper run function ps:color/getcolor/blocks/waxed_weathered_copper
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:red_concrete run function ps:color/getcolor/blocks/red_concrete
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:stripped_crimson_hyphae run function ps:color/getcolor/blocks/stripped_crimson_hyphae
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:magenta_concrete run function ps:color/getcolor/blocks/magenta_concrete
@@ -51,7 +55,6 @@ execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:red_terrac
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:orange_terracotta run function ps:color/getcolor/blocks/orange_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:pink_terracotta run function ps:color/getcolor/blocks/pink_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:magenta_terracotta run function ps:color/getcolor/blocks/magenta_terracotta
-execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:magenta_wool run function ps:color/getcolor/blocks/magenta_wool
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:terracotta run function ps:color/getcolor/blocks/terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:light_gray_terracotta run function ps:color/getcolor/blocks/light_gray_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:purpur_block run function ps:color/getcolor/blocks/purpur_block
@@ -66,15 +69,18 @@ execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:stripped_b
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:end_stone run function ps:color/getcolor/blocks/end_stone
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:white_concrete run function ps:color/getcolor/blocks/white_concrete
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:red_wool run function ps:color/getcolor/blocks/red_wool
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:magenta_wool run function ps:color/getcolor/blocks/magenta_wool
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:smooth_red_sandstone run function ps:color/getcolor/blocks/smooth_red_sandstone
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:stripped_acacia_wood run function ps:color/getcolor/blocks/stripped_acacia_wood
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:pink_concrete run function ps:color/getcolor/blocks/pink_concrete
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:waxed_exposed_copper run function ps:color/getcolor/blocks/waxed_exposed_copper
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:stripped_oak_wood run function ps:color/getcolor/blocks/stripped_oak_wood
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:sponge run function ps:color/getcolor/blocks/sponge
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:white_terracotta run function ps:color/getcolor/blocks/white_terracotta
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:smooth_sandstone run function ps:color/getcolor/blocks/smooth_sandstone
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:redstone_block run function ps:color/getcolor/blocks/redstone_block
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:orange_concrete run function ps:color/getcolor/blocks/orange_concrete
+execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:waxed_copper_block run function ps:color/getcolor/blocks/waxed_copper_block
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:orange_wool run function ps:color/getcolor/blocks/orange_wool
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:pink_wool run function ps:color/getcolor/blocks/pink_wool
 execute if score #color.got PS.mem matches 0 if block ~ ~ ~ minecraft:yellow_concrete run function ps:color/getcolor/blocks/yellow_concrete
