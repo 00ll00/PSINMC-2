@@ -42,13 +42,13 @@ PSINMC是一个建造型原版模组，因此需要在创造模式下使用，�
 为了减小服务器负担和明确服务对象，**PS包的使用者需要通过手动输入命令进行初始化**：
 
 ```mcfunction
-/function ps:players/init
+function ps:players/init
 ```
 
 或使用以下命令为其他玩家进行初始化：
 
 ```mcfunction
-/execute as <player> run function ps:players/init
+execute as <player> run function ps:players/init
 ```
 
 ---
