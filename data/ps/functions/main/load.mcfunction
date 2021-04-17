@@ -162,6 +162,8 @@ team add ps.aqua
 team modify ps.aqua color aqua
 team add ps.white
 team modify ps.white color white
+team add ps.light_purple
+team modify ps.light_purple color light_purple
 #endregion
 
 #tools

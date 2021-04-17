@@ -1,2 +1,2 @@
-clear @s minecraft:carrot_on_a_stick{PS_tool_id:23}
-give @s minecraft:carrot_on_a_stick{"PS_tool": true, "PS_tool_id": 23, "display": {"Name": "{\"translate\": \"ps.tools.dbg_color\", \"color\": \"red\", \"italic\": true}", "Lore": ["{\"translate\": \"ps.desc.dbg_color\"}", "", "[{\"translate\": \"ps.key.qws\", \"color\": \"white\", \"italic\": false}, \": \", {\"translate\": \"ps.action.menu_show\"}]"]}, "PS_tool_modevect": 0, "PS_tool_event_qws": "menu_show", "PS_actionbar": 1}
+clear @s minecraft:carrot_on_a_stick{PS_tool_id:25}
+give @s minecraft:carrot_on_a_stick{"PS_tool": true, "PS_tool_id": 25, "display": {"Name": "{\"translate\": \"ps.tools.dbg_color\", \"color\": \"red\", \"italic\": true}", "Lore": ["{\"translate\": \"ps.desc.dbg_color\"}", "", "[{\"translate\": \"ps.key.qws\", \"color\": \"white\", \"italic\": false}, \": \", {\"translate\": \"ps.action.menu_show\"}]"]}, "PS_tool_modevect": 0, "PS_tool_event_qws": "menu_show", "PS_actionbar": 1}

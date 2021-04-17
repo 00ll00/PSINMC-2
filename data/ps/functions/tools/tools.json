@@ -305,7 +305,7 @@
         "name":{"translate":"ps.tools.anchoradj","color":"green","italic":false},
         "actionbar":1,
         "description":{"translate":"ps.desc.anchoradj"},
-        "mouse_events":["dn","hd","hdws","up"],
+        "mouse_events":["dn"],
         "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_finish_edit"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
@@ -344,6 +344,32 @@
         "selected":[
             "scoreboard players set @s PS.focus.fix 1",
             "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
+    },
+    {
+        "id":"marker",
+        "name":{"translate":"ps.tools.marker","color":"light_purple","italic":false},
+        "actionbar":1,
+        "description":{"translate":"ps.desc.marker"},
+        "mouse_events":["dn"],
+        "event_f":{"action":"tool_cancel","description":{"translate":"ps.action.tool_clear_markers"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
+        "modevect":0
+    },
+    {
+        "id":"ruler",
+        "name":{"translate":"ps.tools.ruler","color":"light_purple","italic":false},
+        "actionbar":1,
+        "description":{"translate":"ps.desc.ruler"},
+        "mouse_events":["dn","hd","hdws","up"],
+        "event_q":{"action":"tool_build","description":{"translate":"ps.action.tool_turn_to_marker"}},
+        "event_f":{"action":"tool_cancel","description":{"translate":"ps.action.tool_take_back"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
+        "modevect":0,
+        "deselect":[
+            "function ps:tools/ruler/cancel"
         ]
     },
     {

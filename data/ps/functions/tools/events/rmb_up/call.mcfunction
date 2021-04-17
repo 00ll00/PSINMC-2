@@ -17,6 +17,6 @@ execute if score @s PS.tools.type matches 16 run function ps:tools/cube/up
 execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/up
 execute if score @s PS.tools.type matches 18 run function ps:tools/pen/up
 execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/up
-execute if score @s PS.tools.type matches 20 run function ps:tools/anchoradj/up
 execute if score @s PS.tools.type matches 21 run function ps:tools/cstm/up
-execute if score @s PS.tools.type matches 23 run function ps:tools/dbg_color/up
+execute if score @s PS.tools.type matches 24 run function ps:tools/ruler/up
+execute if score @s PS.tools.type matches 25 run function ps:tools/dbg_color/up

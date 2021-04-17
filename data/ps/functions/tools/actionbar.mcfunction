@@ -20,4 +20,6 @@ execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/action
 execute if score @s PS.tools.type matches 20 run function ps:tools/anchoradj/actionbar
 execute if score @s PS.tools.type matches 21 run function ps:tools/cstm/actionbar
 execute if score @s PS.tools.type matches 22 run function ps:tools/tp/actionbar
-execute if score @s PS.tools.type matches 23 run function ps:tools/dbg_color/actionbar
+execute if score @s PS.tools.type matches 23 run function ps:tools/marker/actionbar
+execute if score @s PS.tools.type matches 24 run function ps:tools/ruler/actionbar
+execute if score @s PS.tools.type matches 25 run function ps:tools/dbg_color/actionbar

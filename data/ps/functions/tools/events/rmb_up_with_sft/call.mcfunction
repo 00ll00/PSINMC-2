@@ -20,4 +20,6 @@ execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/up
 execute if score @s PS.tools.type matches 20 run function ps:tools/anchoradj/up
 execute if score @s PS.tools.type matches 21 run function ps:tools/cstm/up
 execute if score @s PS.tools.type matches 22 run function ps:tools/tp/up
-execute if score @s PS.tools.type matches 23 run function ps:tools/dbg_color/up
+execute if score @s PS.tools.type matches 23 run function ps:tools/marker/up
+execute if score @s PS.tools.type matches 24 run function ps:tools/ruler/up
+execute if score @s PS.tools.type matches 25 run function ps:tools/dbg_color/up
