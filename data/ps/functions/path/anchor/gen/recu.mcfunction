@@ -24,7 +24,7 @@ scoreboard players operation $math.bzr.z4 PS.mem = $path.gen.z4 PS.mem
 
 function ps:math/bezier3/call
 
-summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["PS.path.p_","PS.path","PS.path.p","PS.path.working","PS.focus.target"]}
+summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["PS.","PS.path.p_","PS.path","PS.path.p","PS.path.working","PS.focus.target"]}
 
 execute as @e[tag=PS.path.p_] run function ps:path/anchor/gen/initp
 scoreboard players operation @e[tag=PS.path.p_] PS.path.id = @s PS.path.id

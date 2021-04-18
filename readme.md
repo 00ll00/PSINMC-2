@@ -92,7 +92,7 @@ function ps:main/unload
 
 这会移除PS在这个世界所注册的所有计分板，清除实体标记，移除bossbar，清理辅助方块（位于区块29999984,2992，世界边界之外）等，但是注意，PS包加载时更改的游戏规则(`gamerules`)不会自动恢复，如有必要请检查以下游戏规则：
 
-- `commandBlockOutput`
+- `sendCommandFeedback`
 - `maxCommandChainLength`
 - `doDaylightCycle`
 - `doWeatherCycle`

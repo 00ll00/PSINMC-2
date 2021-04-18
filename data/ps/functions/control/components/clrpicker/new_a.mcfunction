@@ -20,8 +20,8 @@ execute positioned ^.1 ^ ^ run function ps:control/components/button/new_nt
 tag @e[tag=PS.ctrl.new,tag=!PS.ctrl.clrpk] add PS.ctrl.clrpk.bc
 tag @e[tag=PS.ctrl.new,tag=!PS.ctrl.clrpk] add PS.ctrl.clrpk
 
-summon armor_stand ^.1 ^-.4 ^ {Tags:["PS.ctrl.new","PS.ctrl_","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.clrpk","PS.ctrl.clrpk.c","PS.ctrl.clrpk.c1","PS.ctrl.clrpk.a","PS.ctrl.clrpk.a1"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}
-summon armor_stand ^ ^-.5 ^.1 {Tags:["PS.ctrl.new","PS.ctrl_","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.clrpk","PS.ctrl.clrpk.c","PS.ctrl.clrpk.c2","PS.ctrl.clrpk.a","PS.ctrl.clrpk.a2"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}
+summon armor_stand ^.1 ^-.4 ^ {Tags:["PS.","PS.ctrl.new","PS.ctrl_","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.clrpk","PS.ctrl.clrpk.c","PS.ctrl.clrpk.c1","PS.ctrl.clrpk.a","PS.ctrl.clrpk.a1"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}
+summon armor_stand ^ ^-.5 ^.1 {Tags:["PS.","PS.ctrl.new","PS.ctrl_","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.clrpk","PS.ctrl.clrpk.c","PS.ctrl.clrpk.c2","PS.ctrl.clrpk.a","PS.ctrl.clrpk.a2"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}
 execute positioned ^.2 ^-.4 ^ as @e[tag=PS.ctrl_,tag=PS.ctrl.clrpk.a1] run tp @s ~ ~ ~ ~ ~
 execute positioned ^ ^-.6 ^.1 as @e[tag=PS.ctrl_,tag=PS.ctrl.clrpk.a2] run tp @s ~ ~ ~ ~ ~
 tag @e[tag=PS.ctrl_] remove PS.ctrl_

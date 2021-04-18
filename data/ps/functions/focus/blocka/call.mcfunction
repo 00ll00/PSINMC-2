@@ -40,6 +40,6 @@ execute if score @s PS.focus.fix matches 0 as 0-0110-5053-0-1 at @s align xyz ru
 #focus old
 kill @e[tag=PS.focus.old,tag=PS.players.belonging]
 tag @e[tag=PS.focus.old_,tag=PS.players.belonging] add PS.focus.old
-execute at 0-0110-5053-0-1 run summon marker ~ ~ ~ {Tags:["PS.focus.old__","PS.focus.old_","PS.players.owned","PS.players.belonging"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+execute at 0-0110-5053-0-1 run summon marker ~ ~ ~ {Tags:["PS.","PS.focus.old__","PS.focus.old_","PS.players.owned","PS.players.belonging"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 scoreboard players operation @e[tag=PS.focus.old__,tag=PS.players.belonging] PS.players.owner = @s PS.players.id
 tag @e[tag=PS.focus.old__,tag=PS.players.belonging] remove PS.focus.old__

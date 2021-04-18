@@ -1,1 +1,1 @@
-execute positioned ~0.0 ~0.0 ~0.0 unless block ~ ~ ~ #ps:air run summon marker ~ ~ ~ {Tags:["PS.tools.stroke","PS.tools.stroke.r0"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+execute positioned ~0.0 ~0.0 ~0.0 unless block ~ ~ ~ #ps:air run summon marker ~ ~ ~ {Tags:["PS.","PS.tools.stroke","PS.tools.stroke.r0"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}

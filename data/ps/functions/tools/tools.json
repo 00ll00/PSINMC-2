@@ -322,6 +322,7 @@
         "name":{"translate":"ps.tools.cstm","color":"red","italic":false},
         "actionbar":1,
         "description":{"translate":"ps.desc.cstm"},
+        "tick_event":true,
         "mouse_events":["dn","hd","up"],
         "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
         "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},

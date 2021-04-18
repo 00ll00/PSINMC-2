@@ -1,2 +1,2 @@
 #at base
-summon armor_stand ^ ^ ^ {Tags:["PS.ctrl.new","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.focusable","PS.ctrl.btn","PS.ctrl.btn.b"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}
+summon armor_stand ^ ^ ^ {Tags:["PS.","PS.ctrl.new","PS.ctrl","PS.players.owned","PS.players.belonging","PS.ctrl.focusable","PS.ctrl.btn","PS.ctrl.btn.b"],Pose:{RightArm:[-15f,225f,0f]},Marker:1b,Invisible:1b,Small:1b}

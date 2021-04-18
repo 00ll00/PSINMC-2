@@ -1,6 +1,6 @@
 #as player
 scoreboard players set @s PS.menu.show 1
-summon armor_stand ~ ~ ~ {Tags:["PS.menu.center","PS.menu","PS.menu_","PS.players.owned","PS.players.belonging"],Marker:1b,Invisible:1b}
+summon armor_stand ~ ~ ~ {Tags:["PS.","PS.menu.center","PS.menu","PS.menu_","PS.players.owned","PS.players.belonging"],Marker:1b,Invisible:1b}
 scoreboard players operation @e[tag=PS.menu_] PS.players.owner = @s PS.players.id
 execute at @s rotated as @s anchored eyes positioned ^ ^ ^ as @e[tag=PS.menu_] run tp @s ^ ^ ^6 ~ ~
 tag @e[tag=PS.menu_] remove PS.menu_
