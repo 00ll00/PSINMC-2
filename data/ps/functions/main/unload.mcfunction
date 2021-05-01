@@ -120,50 +120,17 @@ scoreboard objectives remove PS.key.q
 scoreboard objectives remove PS.tps.show
 #endregion
 
-#region values
-scoreboard players set $focus.menu.dist.max PS.sys 16
-scoreboard players set $color.maxraw PS.sys 100
-scoreboard players set $tps.maxmem PS.sys 10
-
-scoreboard players set $focus.block.const PS.const 1290
-scoreboard players set $focus.block.const2 PS.const 1664100
-
-scoreboard players set $-1 PS.const -1
-scoreboard players set $2 PS.const 2
-scoreboard players set $4 PS.const 4
-scoreboard players set $5 PS.const 5
-scoreboard players set $8 PS.const 8
-scoreboard players set $10 PS.const 10
-scoreboard players set $16 PS.const 16
-scoreboard players set $1000 PS.const 1000
-scoreboard players set $10000 PS.const 10000
-scoreboard players set $1000000 PS.const 1000000
-
-scoreboard players remove $players.id.max PS.players.id 0
-scoreboard players remove $ctrl.id.max PS.ctrl.id 0
-#endregion
-
 #region teams
 team remove ps.blue
-team modify ps.blue color blue
 team remove ps.red
-team modify ps.red color red
 team remove ps.gold
-team modify ps.gold color gold
 team remove ps.yellow
-team modify ps.yellow color yellow
 team remove ps.gray
-team modify ps.gray color gray
 team remove ps.dark_gray
-team modify ps.dark_gray color dark_gray
 team remove ps.green
-team modify ps.green color green
 team remove ps.aqua
-team modify ps.aqua color aqua
 team remove ps.white
-team modify ps.white color white
 team remove ps.light_purple
-team modify ps.light_purple color light_purple
 #endregion
 
 #tools

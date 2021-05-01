@@ -1,4 +1,4 @@
-#output tps.avg
+#output $tps.avg
 data modify storage ps:tps cache set from storage ps:tps mem
 scoreboard players set $tps.avg PS.mem 0
 function ps:tps/getavg_

@@ -1,5 +1,6 @@
-execute store result storage ps:tps now int 1 run scoreboard players operation $tps.value PS.mem = $tps.counter PS.mem
-scoreboard players set $tps.counter PS.mem 0
+execute if score #tps.counter PS.mem matches 23.. run scoreboard players set #tps.counter PS.mem 22
+execute store result storage ps:tps now int 1 run scoreboard players operation $tps.value PS.mem = #tps.counter PS.mem
+scoreboard players set #tps.counter PS.mem 0
 
 #compute average
 execute store result score #tps.temp PS.mem run data get storage ps:tps mem

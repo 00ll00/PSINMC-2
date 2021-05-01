@@ -128,7 +128,7 @@ scoreboard objectives add PS.tps.show dummy
 #region values
 scoreboard players set $focus.menu.dist.max PS.sys 16
 scoreboard players set $color.maxraw PS.sys 100
-scoreboard players set $tps.maxmem PS.sys 10
+scoreboard players set $tps.maxmem PS.sys 5
 
 scoreboard players set $focus.block.const PS.const 1290
 scoreboard players set $focus.block.const2 PS.const 1664100
@@ -172,15 +172,37 @@ team modify ps.light_purple color light_purple
 #endregion
 
 #tools
-setblock 29999999 5 3006 minecraft:jukebox
+setblock 29999999 5 3006 minecraft:shulker_box
 
 #players
+#alias vector actionbar_sign 29999999 6 3006
 setblock 29999999 6 3006 minecraft:oak_sign
 
 #tps
 bossbar add ps:tps {"translate": "ps.tps.title","color":"gold"}
 bossbar set ps:tps max 20
 setblock 29999999 5 3007 minecraft:repeating_command_block{auto:1b,Command:"help me"}
+
+#region str
+setblock 29999999 2 3007 minecraft:command_block[facing=north]{auto:0b}
+setblock 29999999 2 3006 minecraft:chain_command_block[facing=north]{auto:1b,UpdateLastExecution:1b,Command:"function ps:string/str2ca/step1"}
+setblock 29999999 2 3005 minecraft:chain_command_block[facing=north]{auto:1b,UpdateLastExecution:0b,Command:"help me"}
+setblock 29999999 2 3004 minecraft:chain_command_block[facing=north]{auto:1b,UpdateLastExecution:0b,Command:"enchant 0-0110-5053-0-4 minecraft:aqua_affinity"}
+setblock 29999999 2 3003 minecraft:chain_command_block[facing=north]{auto:1b,UpdateLastExecution:0b,Command:"enchant 0-0110-5053-1-4 minecraft:aqua_affinity"}
+setblock 29999999 2 3002 minecraft:chain_command_block[facing=north]{auto:1b,UpdateLastExecution:0b,Command:"function ps:string/str2ca/step2"}
+setblock 29999999 2 3001 minecraft:chain_command_block[facing=down]{auto:1b,UpdateLastExecution:0b,Command:"tag 0-0110-5053-0-4 list"}
+setblock 29999999 1 3001 minecraft:chain_command_block[facing=south]{auto:1b,UpdateLastExecution:0b,Command:"execute store result score #str.str2ca.tags PS.mem run tag 0-0110-5053-1-4 list"}
+setblock 29999999 1 3002 minecraft:chain_command_block[facing=south]{auto:1b,UpdateLastExecution:0b,Command:"function ps:string/str2ca/step3"}
+setblock 29999999 1 3003 minecraft:chain_command_block[facing=south]{auto:1b,UpdateLastExecution:0b,Command:"enchant 0-0110-5053-0-4 minecraft:aqua_affinity"}
+setblock 29999999 1 3004 minecraft:chain_command_block[facing=south]{auto:1b,UpdateLastExecution:0b,Command:"enchant 0-0110-5053-1-4 minecraft:aqua_affinity"}
+setblock 29999999 1 3005 minecraft:chain_command_block[facing=south]{auto:1b,UpdateLastExecution:0b,Command:"help me"}
+setblock 29999999 1 3006 minecraft:chain_command_block[facing=up]{auto:1b,UpdateLastExecution:0b,Command:"function ps:string/str2ca/step4"}
+setblock 29999999 1 3007 minecraft:command_block[facing=south]{auto:0b}
+#alias vector str2ca_sign 29999999 3 3007
+setblock 29999999 3 3007 oak_sign
+#alias vector parser_sign 29999999 3 3006
+setblock 29999999 3 3006 oak_sign
+#endregion
 
 #markers
 
@@ -191,7 +213,7 @@ setblock 29999999 5 3007 minecraft:repeating_command_block{auto:1b,Command:"help
 summon marker ~ ~ ~ {UUID:[I;0,17846355,0,1],Tags:["PS.","PS.focus.marker"],Marker:1b,Invisible:1b}
 
 #>  Math Marker.
-#   @public
+#   @private
 #declare entity 0-0110-5053-0-2
 #alias entity math_marker 0-0110-5053-0-2
 summon marker 0.0 0.0 0.0 {UUID:[I;0,17846355,0,2],Tags:["PS.","PS.math.marker"],Marker:1b,Invisible:1b}
@@ -201,3 +223,14 @@ summon marker 0.0 0.0 0.0 {UUID:[I;0,17846355,0,2],Tags:["PS.","PS.math.marker"]
 #declare entity 0-0110-5053-0-3
 #alias entity tools_marker 0-0110-5053-0-3
 summon marker 29999999 0 3007 {UUID:[I;0,17846355,0,3],Tags:["PS.","PS.math.marker"],Marker:1b,Invisible:1b}
+
+#>  String Marker1 (must be armor_stand)
+#   @private
+#declare entity 0-0110-5053-0-4
+#alias entity string_marker1 0-0110-5053-0-4
+summon armor_stand 29999999 1 3007 {Marker:1b,UUID:[I;0,17846355,0,4],Tags:["PS.","PS.str","PS.a","PS.b","PS.c"],CustomNameVisible:1b}
+#>  String Marker2 (must be armor_stand)
+#   @private
+#declare entity 0-0110-5053-1-4
+#alias entity string_marker2 0-0110-5053-1-4
+summon armor_stand 29999999 2 3007 {Marker:1b,UUID:[I;0,17846355,65536,4],Tags:["PS.","PS.str","PS.a, PS.b, PS.c"],CustomNameVisible:1b}

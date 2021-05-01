@@ -1,4 +1,4 @@
-#as player
+#as player (not in tick)
 tag @s add PS.op
 tag @s add PS.player.init
 
