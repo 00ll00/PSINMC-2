@@ -18,8 +18,9 @@ execute if score @s PS.tools.type matches 17 run function ps:tools/sphere/dn
 execute if score @s PS.tools.type matches 18 run function ps:tools/pen/dn
 execute if score @s PS.tools.type matches 19 run function ps:tools/anchor/dn
 execute if score @s PS.tools.type matches 20 run function ps:tools/anchoradj/dn
-execute if score @s PS.tools.type matches 21 run function ps:tools/cstm/dn
-execute if score @s PS.tools.type matches 22 run function ps:tools/tp/dn
-execute if score @s PS.tools.type matches 23 run function ps:tools/marker/dn
-execute if score @s PS.tools.type matches 24 run function ps:tools/ruler/dn
-execute if score @s PS.tools.type matches 25 run function ps:tools/dbg_color/dn
+execute if score @s PS.tools.type matches 21 run function ps:tools/lsys/dn
+execute if score @s PS.tools.type matches 22 run function ps:tools/cstm/dn
+execute if score @s PS.tools.type matches 23 run function ps:tools/tp/dn
+execute if score @s PS.tools.type matches 24 run function ps:tools/marker/dn
+execute if score @s PS.tools.type matches 25 run function ps:tools/ruler/dn
+execute if score @s PS.tools.type matches 26 run function ps:tools/dbg_color/dn

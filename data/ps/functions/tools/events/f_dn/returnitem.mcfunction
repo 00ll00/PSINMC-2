@@ -1,3 +1,3 @@
 #as player
-item entity @s weapon.mainhand copy entity @s weapon.offhand
-item entity @s weapon.offhand replace minecraft:air
+item replace entity @s weapon.mainhand from entity @s weapon.offhand
+item replace entity @s weapon.offhand with minecraft:air

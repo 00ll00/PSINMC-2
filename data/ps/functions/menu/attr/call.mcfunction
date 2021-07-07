@@ -18,8 +18,9 @@ execute if score @s PS.tools.type matches 17 run function ps:menu/attr/sphere
 execute if score @s PS.tools.type matches 18 run function ps:menu/attr/pen
 execute if score @s PS.tools.type matches 19 run function ps:menu/attr/anchor
 execute if score @s PS.tools.type matches 20 run function ps:menu/attr/anchoradj
-execute if score @s PS.tools.type matches 21 run function ps:menu/attr/cstm
-execute if score @s PS.tools.type matches 22 run function ps:menu/attr/tp
-execute if score @s PS.tools.type matches 23 run function ps:menu/attr/marker
-execute if score @s PS.tools.type matches 24 run function ps:menu/attr/ruler
-execute if score @s PS.tools.type matches 25 run function ps:menu/attr/dbg_color
+execute if score @s PS.tools.type matches 21 run function ps:menu/attr/lsys
+execute if score @s PS.tools.type matches 22 run function ps:menu/attr/cstm
+execute if score @s PS.tools.type matches 23 run function ps:menu/attr/tp
+execute if score @s PS.tools.type matches 24 run function ps:menu/attr/marker
+execute if score @s PS.tools.type matches 25 run function ps:menu/attr/ruler
+execute if score @s PS.tools.type matches 26 run function ps:menu/attr/dbg_color
