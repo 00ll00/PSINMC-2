@@ -265,6 +265,22 @@
         ]
     },
     {
+        "id":"smooth",
+        "name":{"translate":"ps.tools.smooth","color":"blue","italic":false},
+        "actionbar":1,
+        "description":{"translate":"ps.desc.smooth"},
+        "mouse_events":["dn","hd","up"],
+        "event_q":{"action":"size_up","description":{"translate":"ps.action.size_up"}},
+        "event_f":{"action":"size_dn","description":{"translate":"ps.action.size_dn"}},
+        "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
+        "event_fws":{"action":"focus_dist","description":{"translate":"ps.action.focus_dist"}},
+        "modevect":0,
+        "selected":[
+            "scoreboard players set @s PS.focus.fix 1",
+            "scoreboard players set $players.actionbar.postype PS.mem 1"
+        ]
+    },
+    {
         "id":"pen",
         "name":{"translate":"ps.tools.pen","color":"green","italic":false},
         "actionbar":1,
@@ -391,7 +407,8 @@
         "name":{"translate":"ps.tools.dbg_color","color":"red","italic":true},
         "actionbar":1,
         "description":{"translate":"ps.desc.dbg_color"},
-        "mouse_events":["dn","up"],
+        "mouse_events":["dn"],
+        "event_f":{"action":"tool_cancel","description":{"translate":"ps.action.tool_cancel"}},
         "event_qws":{"action":"menu_show","description":{"translate":"ps.action.menu_show"}},
         "modevect":0,
         "selected":[

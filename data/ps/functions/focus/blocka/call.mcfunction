@@ -32,7 +32,7 @@ scoreboard players operation @s PS.focus.z = $focus.z PS.mem
 #execute at 0-0110-5053-0-1 run tp @e[tag=PS.focus.cursor,tag=PS.players.belonging] ~.5 ~.5 ~.5
 
 #set cursor
-execute at 0-0110-5053-0-1 align xyz run summon falling_block ~.5 ~-.01 ~.5 {Glowing:1b,BlockState:{Name:"minecraft:glass"},NoGravity:1b,Time:599,DropItem:false}
+execute at 0-0110-5053-0-1 align xyz run summon falling_block ~.5 ~-.01 ~.5 {Glowing:1b,BlockState:{Name:"minecraft:glass"},NoGravity:1b,Time:600,DropItem:false}
 
 #position fix
 execute if score @s PS.focus.fix matches 0 as 0-0110-5053-0-1 at @s align xyz run tp ~.5 ~.5 ~.5 

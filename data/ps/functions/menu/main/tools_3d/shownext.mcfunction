@@ -7,3 +7,4 @@ execute positioned ^-3 ^2 ^ run function ps:menu/main/tools_3d/cube/show
 execute positioned ^-3 ^1 ^ run function ps:menu/main/tools_3d/sphere/show
 execute positioned ^-3 ^0 ^ run function ps:menu/main/tools_3d/pull/show
 execute positioned ^-3 ^-1 ^ run function ps:menu/main/tools_3d/knife/show
+execute positioned ^-3 ^-2 ^ run function ps:menu/main/tools_3d/smooth/show

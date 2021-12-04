@@ -197,6 +197,14 @@
                         "offset":[-3,-1,-1.5],
                         "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.knife"}],"color":"aqua"},
                         "event_exit":{"action":"repl_tool"}
+                    },
+                    {
+                        "id":"smooth",
+                        "type":"item",
+                        "text":{"translate":"ps.tools.smooth","bold":true,"color":"blue"},
+                        "offset":[-3,-2,-1.5],
+                        "inf":{"translate":"ps.inf.menu.tools","with":[{"translate":"ps.tools.smooth"}],"color":"aqua"},
+                        "event_exit":{"action":"repl_tool"}
                     }
                 ]
             },
